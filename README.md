@@ -26,7 +26,6 @@ The primary objective of this project is to leverage Semantic Web technologies, 
 - **Frontend**: HTML, CSS, JavaScript
 - **Database**: PostgreSQL for user management; Apache Jena Fuseki for RDF storage and SPARQL querying
 - **NER System**: spaCy, with a custom-trained model and data augmentation using RoWordNet
-- **Version Control**: GitHub for collaboration and version management
 
 ---
 
