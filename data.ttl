@@ -1,0 +1,3887 @@
+@prefix : <http://www.ase.ro#> .
+@prefix ase: <http://www.ase.ro#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.ase.ro#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.ase.ro#abordareProcesuala
+ase:abordareProcesuala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#abordareSistemica
+ase:abordareSistemica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#acceptareDonații
+ase:acceptareDonații rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#accesAdaptat
+ase:accesAdaptat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#accesHotarari
+ase:accesHotarari rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#accesInformatiiTaxe
+ase:accesInformatiiTaxe rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#accesPaginaPersonala
+ase:accesPaginaPersonala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#accesSpațiuUniversitar
+ase:accesSpațiuUniversitar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#achitareObligatii
+ase:achitareObligatii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#acreditare
+ase:acreditare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#activitateDidacticaCercetareCalitate
+ase:activitateDidacticaCercetareCalitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#activitatiNeremunerateInFavoareaCadruDidactic
+ase:activitatiNeremunerateInFavoareaCadruDidactic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#activitatiRemunerateInFavoareaStudentului
+ase:activitatiRemunerateInFavoareaStudentului rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#activitatiSocialeCulturaleSportive
+ase:activitatiSocialeCulturaleSportive rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#admisInmatriculatLaProgramStudii
+ase:admisInmatriculatLaProgramStudii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#admitere
+ase:admitere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#adoptareRegulament
+ase:adoptareRegulament rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ajutorDirectorDepartament
+ase:ajutorDirectorDepartament rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ajutorDirectorScoliiDoctorale
+ase:ajutorDirectorScoliiDoctorale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aleagaReprezentantii
+ase:aleagaReprezentantii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alegereLiberaPrograme
+ase:alegereLiberaPrograme rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alegereReprezentare
+ase:alegereReprezentare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alegereSiAlegereInStructuri
+ase:alegereSiAlegereInStructuri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alegereStructuriȘiFuncțiiConducere
+ase:alegereStructuriȘiFuncțiiConducere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alegeri
+ase:alegeri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alegeriPartialeSauConcurs
+ase:alegeriPartialeSauConcurs rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alocareConform
+ase:alocareConform rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alocareFonduriStimulare
+ase:alocareFonduriStimulare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alteAspecteActivitati
+ase:alteAspecteActivitati rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alteAtributii
+ase:alteAtributii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alteResurse
+ase:alteResurse rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alteSancțiuni
+ase:alteSancțiuni rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#alteStructuri
+ase:alteStructuri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#analizaPlanuriInvatamant
+ase:analizaPlanuriInvatamant rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#anulareCertificatDiplomaFrauduloasa
+ase:anulareCertificatDiplomaFrauduloasa rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#anulareRezultatEvaluare
+ase:anulareRezultatEvaluare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aplicabil
+ase:aplicabil rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aplicareHotarari
+ase:aplicareHotarari rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aplicarePrevederiRegulamentIntern
+ase:aplicarePrevederiRegulamentIntern rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aplicareRaspunderePublica
+ase:aplicareRaspunderePublica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aprobare
+ase:aprobare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aprobareAtributiiPersonalDidacticAuxiliar
+ase:aprobareAtributiiPersonalDidacticAuxiliar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aprobareCereriConcedii
+ase:aprobareCereriConcedii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aprobareComponențaStructuraComisieiEtica
+ase:aprobareComponențaStructuraComisieiEtica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aprobareConcursPosturi
+ase:aprobareConcursPosturi rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aprobareCuantumStructuraAport
+ase:aprobareCuantumStructuraAport rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aprobareOperatiuniFinanciare
+ase:aprobareOperatiuniFinanciare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aprobareSpatii
+ase:aprobareSpatii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#aprobatDe
+ase:aprobatDe rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#argumentareaDeciziilorConducerii
+ase:argumentareaDeciziilorConducerii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#asiguraAutoevaluarePeriodica
+ase:asiguraAutoevaluarePeriodica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#asiguraConducereOperativa
+ase:asiguraConducereOperativa rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#asiguraProducereaCunoasterii
+ase:asiguraProducereaCunoasterii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#asigurareBunaDesfasurareConcursuri
+ase:asigurareBunaDesfasurareConcursuri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#asigurareCalitate
+ase:asigurareCalitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#asigurareaCalitatii
+ase:asigurareaCalitatii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#asistaEvaluatoriEvaluareExternaInterna
+ase:asistaEvaluatoriEvaluareExternaInterna rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#asumareObligații
+ase:asumareObligații rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atacuriPersonale
+ase:atacuriPersonale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atestare
+ase:atestare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atragereFonduriEuropene
+ase:atragereFonduriEuropene rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareActivitatiDidacticeCercetare
+ase:atributieAprobareActivitatiDidacticeCercetare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareAnSabatic
+ase:atributieAprobareAnSabatic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareBuget
+ase:atributieAprobareBuget rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareCoduriDrepturiStudenti
+ase:atributieAprobareCoduriDrepturiStudenti rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareComisiiAnalizaAbateriDisciplinare
+ase:atributieAprobareComisiiAnalizaAbateriDisciplinare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareComisiiConcursExamen
+ase:atributieAprobareComisiiConcursExamen rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareDistinctiiOnorifice
+ase:atributieAprobareDistinctiiOnorifice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareEchivalareTitluriDidactice
+ase:atributieAprobareEchivalareTitluriDidactice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareFormatiiStudiu
+ase:atributieAprobareFormatiiStudiu rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareInfiintareSocietatiComerciale
+ase:atributieAprobareInfiintareSocietatiComerciale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareInvitareCadreDidactice
+ase:atributieAprobareInvitareCadreDidactice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareListaPosturiVacante
+ase:atributieAprobareListaPosturiVacante rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobarePerioadeConcediuOdihna
+ase:atributieAprobarePerioadeConcediuOdihna rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobarePlanuriInvatamant
+ase:atributieAprobarePlanuriInvatamant rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobarePlanuriStrategice
+ase:atributieAprobarePlanuriStrategice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobarePrelungireDurataProgramDoctorat
+ase:atributieAprobarePrelungireDurataProgramDoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareReducereNormaDidactica
+ase:atributieAprobareReducereNormaDidactica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareRegulamenteMetodologii
+ase:atributieAprobareRegulamenteMetodologii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareRezultateConcursuri
+ase:atributieAprobareRezultateConcursuri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareSanctionareDisciplinara
+ase:atributieAprobareSanctionareDisciplinara rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareSanctionarePersonal
+ase:atributieAprobareSanctionarePersonal rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareStateFunctii
+ase:atributieAprobareStateFunctii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareStructuraAnUniversitar
+ase:atributieAprobareStructuraAnUniversitar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareStructuraOrganizareASE
+ase:atributieAprobareStructuraOrganizareASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieAprobareStructuriInvatamantCercetare
+ase:atributieAprobareStructuriInvatamantCercetare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieControlActivitateRector
+ase:atributieControlActivitateRector rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieDecidereAlteDomeniiActivitateUniversitara
+ase:atributieDecidereAlteDomeniiActivitateUniversitara rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieDecidereMarireNormaDidactica
+ase:atributieDecidereMarireNormaDidactica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieDesemnareProrectorCredite
+ase:atributieDesemnareProrectorCredite rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieElaborareCartaUniversitara
+ase:atributieElaborareCartaUniversitara rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieElaborareCoduriCalitateEtica
+ase:atributieElaborareCoduriCalitateEtica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieIncheiereContractManagementRector
+ase:atributieIncheiereContractManagementRector rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieStabilireCompozitieBirouElectoral
+ase:atributieStabilireCompozitieBirouElectoral rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieStabilireNumarStudentiDoctoranzi
+ase:atributieStabilireNumarStudentiDoctoranzi rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieStabilirePlafoaneCheltuieli
+ase:atributieStabilirePlafoaneCheltuieli rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributieValidareConcursuriPublice
+ase:atributieValidareConcursuriPublice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributii
+ase:atributii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributiiAltele
+ase:atributiiAltele rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atributiiSpecifice
+ase:atributiiSpecifice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atribuții
+ase:atribuții rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#atribuțiiPersonal
+ase:atribuțiiPersonal rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#autonomiaUniversitara
+ase:autonomiaUniversitara rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#autonomieDidactică
+ase:autonomieDidactică rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#autonomieDidacticăȘiȘtiințifică
+ase:autonomieDidacticăȘiȘtiințifică rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#autonomieFinanciară
+ase:autonomieFinanciară rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#autonomieFinanciarăȘiAdministrativă
+ase:autonomieFinanciarăȘiAdministrativă rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#autonomieFuncțională
+ase:autonomieFuncțională rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#autonomieInstituționalăȘiFuncțională
+ase:autonomieInstituționalăȘiFuncțională rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#autoplagiereRezultate
+ase:autoplagiereRezultate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#avertismentScris
+ase:avertismentScris rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#avizare
+ase:avizare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#avizareExamenMedical
+ase:avizareExamenMedical rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#avizareRaportRegie
+ase:avizareRaportRegie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#avizeazaCereriAnSabatic
+ase:avizeazaCereriAnSabatic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#avizeazaComisiiSustinerePublicaTeze
+ase:avizeazaComisiiSustinerePublicaTeze rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#avizeazaFisaPostului
+ase:avizeazaFisaPostului rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#bazeSportive
+ase:bazeSportive rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#beneficiereAsistentaMedicala
+ase:beneficiereAsistentaMedicala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#beneficiereCazare
+ase:beneficiereCazare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#beneficiereDrepturiLibertati
+ase:beneficiereDrepturiLibertati rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#beneficiereIndrumator
+ase:beneficiereIndrumator rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#beneficiereLogistica
+ase:beneficiereLogistica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#beneficiereMobilitate
+ase:beneficiereMobilitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#beneficierePrevederi
+ase:beneficierePrevederi rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#beneficiereProtectieUniversitar
+ase:beneficiereProtectieUniversitar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#beneficiereServicii
+ase:beneficiereServicii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#beneficiereTarifeReduse
+ase:beneficiereTarifeReduse rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#beneficiereTratament
+ase:beneficiereTratament rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#bibliotecă
+ase:bibliotecă rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cadreDidactice
+ase:cadreDidactice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#calificări
+ase:calificări rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#calitateCercetătorPostdoctorat
+ase:calitateCercetătorPostdoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#calitateConducătorDoctorat
+ase:calitateConducătorDoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#calitateCursant
+ase:calitateCursant rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#calitatePersonalDidactic
+ase:calitatePersonalDidactic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#calitateStudenți
+ase:calitateStudenți rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#calitateaDeStudent
+ase:calitateaDeStudent rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#candidareGranturi
+ase:candidareGranturi rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#centrareaEducatieiPeStudent
+ase:centrareaEducatieiPeStudent rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#centrareaPeStudentSiPartiInteresate
+ase:centrareaPeStudentSiPartiInteresate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#centreCercetare
+ase:centreCercetare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#centreConsultanta
+ase:centreConsultanta rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#centruÎnvățământLaDistanțăȘiFrecvențăRedusă
+ase:centruÎnvățământLaDistanțăȘiFrecvențăRedusă rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cercetareDezvoltareInovare
+ase:cercetareDezvoltareInovare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cercetatori
+ase:cercetatori rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cercetătoriPostdoctorat
+ase:cercetătoriPostdoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cerereMajoritatePersonal
+ase:cerereMajoritatePersonal rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cerereMajoritateSimpleConducatoriDoctorat
+ase:cerereMajoritateSimpleConducatoriDoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#character
+ase:character rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cheltuieliCuRespectareaLegii
+ase:cheltuieliCuRespectareaLegii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#citireFisaDisciplinei
+ase:citireFisaDisciplinei rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#colaborareEchipe
+ase:colaborareEchipe rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#colaborareViziuneMisiuneObiective
+ase:colaborareViziuneMisiuneObiective rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#comercializareaLucrariStiintifice
+ase:comercializareaLucrariStiintifice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#comisiiSpecialitate
+ase:comisiiSpecialitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#competitie
+ase:competitie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#componente
+ase:componente rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#comportament
+ase:comportament rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#comportamentCivic
+ase:comportamentCivic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#compozitie
+ase:compozitie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#concediiCuPlata
+ase:concediiCuPlata rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#concediiFaraPlata
+ase:concediiFaraPlata rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#concediuOdihna
+ase:concediuOdihna rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conditii
+ase:conditii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conditiiMembriCadreDidactice
+ase:conditiiMembriCadreDidactice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conditiiMembriPersonalDidactic
+ase:conditiiMembriPersonalDidactic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conditiiMembriStudenti
+ase:conditiiMembriStudenti rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conditiiNormale
+ase:conditiiNormale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conditiiReprezentareStudenți
+ase:conditiiReprezentareStudenți rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conditionareParticipareExaminare
+ase:conditionareParticipareExaminare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#condițiiCetățeni
+ase:condițiiCetățeni rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conduceComponenteStructuraAdministrativa
+ase:conduceComponenteStructuraAdministrativa rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conduceStructuraAdministrativaASE
+ase:conduceStructuraAdministrativaASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conducere
+ase:conducere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conducereConsiliulAdministratie
+ase:conducereConsiliulAdministratie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conducereOperativaASE
+ase:conducereOperativaASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conducereSedinteConsiliulFacultatii
+ase:conducereSedinteConsiliulFacultatii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conduita
+ase:conduita rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conduitaContradictorieCod
+ase:conduitaContradictorieCod rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conduitaMoralaAdecvata
+ase:conduitaMoralaAdecvata rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#confectieRezultateStiintifice
+ase:confectieRezultateStiintifice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conferireaTitlurilorDistinctii
+ase:conferireaTitlurilorDistinctii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conflictInterese
+ase:conflictInterese rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conformitate
+ase:conformitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conformitateLegislație
+ase:conformitateLegislație rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conservareaPatrimoniuluiASE
+ase:conservareaPatrimoniuluiASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#constituire
+ase:constituire rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#constituireDezvoltareInstrainareBazaMateriala
+ase:constituireDezvoltareInstrainareBazaMateriala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#constituireUnitățiGeneratoareVenit
+ase:constituireUnitățiGeneratoareVenit rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#consultareSite
+ase:consultareSite rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#contestareNote
+ase:contestareNote rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#contractInstitutie
+ase:contractInstitutie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#contractManagement
+ase:contractManagement rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#contracteMinisterulResort
+ase:contracteMinisterulResort rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#contracteOperatiuniFinanciare
+ase:contracteOperatiuniFinanciare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#contribuiePlanuriDeInvatamant
+ase:contribuiePlanuriDeInvatamant rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#contribuireMisiuneASE
+ase:contribuireMisiuneASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#controlMedicalPeriodic
+ase:controlMedicalPeriodic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#convocareSenatExtraordinar
+ase:convocareSenatExtraordinar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conținut
+ase:conținut rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#conținutProgramStudii
+ase:conținutProgramStudii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cooperare
+ase:cooperare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cooperareInternationala
+ase:cooperareInternationala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cooperareInternationalaProcedura
+ase:cooperareInternationalaProcedura rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#coordonareParteneriate
+ase:coordonareParteneriate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#coordonareProgramDoctorat
+ase:coordonareProgramDoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#coordonație
+ase:coordonație rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#coordoneazaCercetare
+ase:coordoneazaCercetare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#coordoneazaEvaluareDosareAbilitare
+ase:coordoneazaEvaluareDosareAbilitare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#coordoneazaPropuneriInmatriculareExmatriculare
+ase:coordoneazaPropuneriInmatriculareExmatriculare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#coordoneazaPropuneriIntreruperePrelungireProgram
+ase:coordoneazaPropuneriIntreruperePrelungireProgram rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#coordoneazaRegulamentScoalaDoctorala
+ase:coordoneazaRegulamentScoalaDoctorala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#crediteTransferabile
+ase:crediteTransferabile rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cuFrecvență
+ase:cuFrecvență rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cuFrecvențăRedusă
+ase:cuFrecvențăRedusă rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cuantificareOreConventii
+ase:cuantificareOreConventii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cultivareaCreativitatiiInovarii
+ase:cultivareaCreativitatiiInovarii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cumulareFuncții
+ase:cumulareFuncții rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cunoasterePunctajLucrare
+ase:cunoasterePunctajLucrare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#cursanți
+ase:cursanți rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dataAprobare
+ase:dataAprobare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dataModificare
+ase:dataModificare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#de
+ase:de rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#decideSchimbareConducatorDoctorat
+ase:decideSchimbareConducatorDoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#deciziiAngajareSancționare
+ase:deciziiAngajareSancționare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#deciziiRegimMatricol
+ase:deciziiRegimMatricol rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#deciziiSauActe
+ase:deciziiSauActe rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#declarareCapacitateScolarizare
+ase:declarareCapacitateScolarizare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#decretRegal
+ase:decretRegal rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dedicare
+ase:dedicare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#demnitateȘiConduită
+ase:demnitateȘiConduită rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#denumireInEngleza
+ase:denumireInEngleza rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#denumireOficiala
+ase:denumireOficiala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#departamente
+ase:departamente rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#desemnare
+ase:desemnare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#desemnareMembri
+ase:desemnareMembri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#desfacereaContractMunca
+ase:desfacereaContractMunca rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#desfasurareActiuni
+ase:desfasurareActiuni rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#destituireaFuncțieConducere
+ase:destituireaFuncțieConducere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#detinereFunctieConducereContracteComerciale
+ase:detinereFunctieConducereContracteComerciale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dezvoltareCapacitateRezilienta
+ase:dezvoltareCapacitateRezilienta rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dialogSocial
+ase:dialogSocial rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#diminuareaSalariului
+ase:diminuareaSalariului rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#director
+ase:director rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#discriminari
+ase:discriminari rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dizolvare
+ase:dizolvare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#documenteCurriculare
+ase:documenteCurriculare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#documenteOficiale
+ase:documenteOficiale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dreptAsociere
+ase:dreptAsociere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dreptCercetareTematică
+ase:dreptCercetareTematică rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dreptConsultanță
+ase:dreptConsultanță rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dreptExprimareOpinii
+ase:dreptExprimareOpinii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dreptProducereDobândireDezvoltare
+ase:dreptProducereDobândireDezvoltare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#dreptSelectareMembri
+ase:dreptSelectareMembri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#drepturi
+ase:drepturi rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#drepturiComunitate
+ase:drepturiComunitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#durataMandat
+ase:durataMandat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#echivalareFuncții
+ase:echivalareFuncții rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#echivalență
+ase:echivalență rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#editură
+ase:editură rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#eficacitateaManagerialăȘiEficiențaFinanciară
+ase:eficacitateaManagerialăȘiEficiențaFinanciară rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#elaborare
+ase:elaborare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#elaborareBuget
+ase:elaborareBuget rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#elaborareBugetBilant
+ase:elaborareBugetBilant rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#elaborareCadrulReglementar
+ase:elaborareCadrulReglementar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#elaborareMetodologieAlegeri
+ase:elaborareMetodologieAlegeri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#elaborareRegulamentDoctorat
+ase:elaborareRegulamentDoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#elaborareRegulamenteMetodologii
+ase:elaborareRegulamenteMetodologii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#elaboreazaStateDeFunctii
+ase:elaboreazaStateDeFunctii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#elementReferință
+ase:elementReferință rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#evaluareActivitateDidacticaStiintifica
+ase:evaluareActivitateDidacticaStiintifica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#evaluareCadreDidactice
+ase:evaluareCadreDidactice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#evaluareInternCertificareExtern
+ase:evaluareInternCertificareExtern rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#evaluareObiectiva
+ase:evaluareObiectiva rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#evaluarePeriodica
+ase:evaluarePeriodica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#evaluarePeriodicaPersonalDidactic
+ase:evaluarePeriodicaPersonalDidactic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#evaluareaActivitatiDidacticeDeCatreStudenti
+ase:evaluareaActivitatiDidacticeDeCatreStudenti rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#evidențăStudenți
+ase:evidențăStudenți rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#evitareHartuire
+ase:evitareHartuire rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#examinareAlternativa
+ase:examinareAlternativa rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#excludere
+ase:excludere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#executor
+ase:executor rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#exmatricularea
+ase:exmatricularea rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#exprimareLiberaOpinii
+ase:exprimareLiberaOpinii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#extensiiUniversitare
+ase:extensiiUniversitare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#facilitareMobilitate
+ase:facilitareMobilitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#facultate
+ase:facultate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#facultăți
+ase:facultăți rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#fieLegaturaPermanenta
+ase:fieLegaturaPermanenta rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#finalizareAlegeri
+ase:finalizareAlegeri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#finantareAlteMinistereImprumuturiSurseExterne
+ase:finantareAlteMinistereImprumuturiSurseExterne rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#finantareBuget
+ase:finantareBuget rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#finantareBugetStat
+ase:finantareBugetStat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#finantareCercetareStiintifica
+ase:finantareCercetareStiintifica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#finantareDeLaBuget
+ase:finantareDeLaBuget rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#finantareDobanziDonatiiLegateSponsorizari
+ase:finantareDobanziDonatiiLegateSponsorizari rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#finantareTaxeSauBurse
+ase:finantareTaxeSauBurse rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#finantareTaxeScolarizarePrestatiiUniversitare
+ase:finantareTaxeScolarizarePrestatiiUniversitare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#finantareaInvestitiiActivitatiBaza
+ase:finantareaInvestitiiActivitatiBaza rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#fișaDisciplinei
+ase:fișaDisciplinei rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#fondDezvoltareInstitutionala
+ase:fondDezvoltareInstitutionala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#fonduriRamaseSfarsitAn
+ase:fonduriRamaseSfarsitAn rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#formeleOrganizare
+ase:formeleOrganizare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#functieAsimilata
+ase:functieAsimilata rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#garantatăPrin
+ase:garantatăPrin rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#garanteazaLibertatea
+ase:garanteazaLibertatea rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#gestionarePatrimoniuASE
+ase:gestionarePatrimoniuASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#gestiuneProtejareResurse
+ase:gestiuneProtejareResurse rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ghidStudent
+ase:ghidStudent rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#gratuitateManifestari
+ase:gratuitateManifestari rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#grupuriUnitățiCurriculare
+ase:grupuriUnitățiCurriculare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#hotarari
+ase:hotarari rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#imbunatatesteEducatieCercetare
+ase:imbunatatesteEducatieCercetare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#imbunatatireContinuaCalitate
+ase:imbunatatireContinuaCalitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#implicareaPersonalului
+ase:implicareaPersonalului rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#incalcareCodEticaDeontologie
+ase:incalcareCodEticaDeontologie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#incalcareIndatoriri
+ase:incalcareIndatoriri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#incalcareIndatoririStandardePerformanta
+ase:incalcareIndatoririStandardePerformanta rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#incalcareLegislatieNormeEtica
+ase:incalcareLegislatieNormeEtica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#incercarePromovareExamenMită
+ase:incercarePromovareExamenMită rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#incetareRapoarteIerarhice
+ase:incetareRapoarteIerarhice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#inchiriereActivePatrimoniale
+ase:inchiriereActivePatrimoniale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#include
+ase:include rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#includeCSUD
+ase:includeCSUD rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#includeCercetătoriPostdoctorat
+ase:includeCercetătoriPostdoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#includeConsiliileDepartamentelor
+ase:includeConsiliileDepartamentelor rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#includeConsiliileFacultatilor
+ase:includeConsiliileFacultatilor rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#includeConsiliileScolilorDoctorale
+ase:includeConsiliileScolilorDoctorale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#includeConsiliulAdministratie
+ase:includeConsiliulAdministratie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#includeCursanți
+ase:includeCursanți rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#includePersonalDidactic
+ase:includePersonalDidactic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#includePersonalDidacticAuxiliar
+ase:includePersonalDidacticAuxiliar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#includeSenatulUniversitar
+ase:includeSenatulUniversitar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#includeStudenți
+ase:includeStudenți rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#incompatibilitateLegal
+ase:incompatibilitateLegal rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#incompatibilitateLegala
+ase:incompatibilitateLegala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#incompatibilitati
+ase:incompatibilitati rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#incourageazaActivitati
+ase:incourageazaActivitati rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#incubatoareDeAfaceri
+ase:incubatoareDeAfaceri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#independențaFațăDeIdeologii
+ase:independențaFațăDeIdeologii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#indeplinesteSarciniFisaPostului
+ase:indeplinesteSarciniFisaPostului rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#indeplinesteSarciniStabilite
+ase:indeplinesteSarciniStabilite rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#indeplinireAlteAtributii
+ase:indeplinireAlteAtributii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#indeplinireSarciniContract
+ase:indeplinireSarciniContract rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#infiintare
+ase:infiintare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#infiintareAteliere
+ase:infiintareAteliere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#influenta
+ase:influenta rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#influentaDeciziiInteresePatrimoniale
+ase:influentaDeciziiInteresePatrimoniale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#informare
+ase:informare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#informareCurriculum
+ase:informareCurriculum rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#informatiiFalseSolicitariGranturi
+ase:informatiiFalseSolicitariGranturi rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#initiativaAmendare
+ase:initiativaAmendare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#inițiereParteneriate
+ase:inițiereParteneriate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#inscriereCursuriAlteScoli
+ase:inscriereCursuriAlteScoli rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#instituteȘiCentreDeCercetare
+ase:instituteȘiCentreDeCercetare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#integritate
+ase:integritate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#interdictieAcelasiOrganConducere
+ase:interdictieAcelasiOrganConducere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#interdictieConducatorDoctorat
+ase:interdictieConducatorDoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#interdictieEvaluareRude
+ase:interdictieEvaluareRude rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#interdictii
+ase:interdictii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#interesPersonal
+ase:interesPersonal rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#interrupereRezumareStudii
+ase:interrupereRezumareStudii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#intocmesteFiseDePost
+ase:intocmesteFiseDePost rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#laDistanță
+ase:laDistanță rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#laboratoare
+ase:laboratoare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#legaturaPermanenta
+ase:legaturaPermanenta rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#lege
+ase:lege rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#libertateaAcademica
+ase:libertateaAcademica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#libertateaDeMobilitate
+ase:libertateaDeMobilitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#limitareOrar
+ase:limitareOrar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#locuriFinantate
+ase:locuriFinantate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#loialitate
+ase:loialitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#managementActivitățiPredare
+ase:managementActivitățiPredare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#managementDeliberativȘiDecizional
+ase:managementDeliberativȘiDecizional rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#managementExecutiv
+ase:managementExecutiv rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#managementFinanciar
+ase:managementFinanciar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#managementLogisticaInfrastructura
+ase:managementLogisticaInfrastructura rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#managementPerformant
+ase:managementPerformant rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#managementResurseUmane
+ase:managementResurseUmane rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#mandat
+ase:mandat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#mandatCadreDidactice
+ase:mandatCadreDidactice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#mandatStudentiDoctoranzi
+ase:mandatStudentiDoctoranzi rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#manifestare
+ase:manifestare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#masuriAdministrareResurseMaterialeFinanciare
+ase:masuriAdministrareResurseMaterialeFinanciare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#masuriAnticipativeSuprasolicitare
+ase:masuriAnticipativeSuprasolicitare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#maxMandate
+ase:maxMandate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#membruDeDreptConsiliulAdministratie
+ase:membruDeDreptConsiliulAdministratie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#membruFondator
+ase:membruFondator rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#metodologie
+ase:metodologie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#metodologieReprezentare
+ase:metodologieReprezentare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#metodologiiProprii
+ase:metodologiiProprii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#minimizareTeamaHărțuireSexuală
+ase:minimizareTeamaHărțuireSexuală rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#misiuneDeCercetare
+ase:misiuneDeCercetare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#misiuneEducationala
+ase:misiuneEducationala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#misiunePentruComunitate
+ase:misiunePentruComunitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#mobilitateInternationala
+ase:mobilitateInternationala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#mobilitati
+ase:mobilitati rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#modSoluționare
+ase:modSoluționare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#modulAdministrareSpațiu
+ase:modulAdministrareSpațiu rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#motiv
+ase:motiv rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#muzee
+ase:muzee rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#nediscriminare
+ase:nediscriminare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#neindeplinireIndicatori
+ase:neindeplinireIndicatori rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#neindeplinireIndicatoriPerformanta
+ase:neindeplinireIndicatoriPerformanta rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#neindeplinireObligatie
+ase:neindeplinireObligatie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#neindeplinireSarcini
+ase:neindeplinireSarcini rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#nendeplinireSarcini
+ase:nendeplinireSarcini rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#nivelulI
+ase:nivelulI rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#nivelulII
+ase:nivelulII rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#nuConditiaStatut
+ase:nuConditiaStatut rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#nuFumeaza
+ase:nuFumeaza rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#nuImplicareCadre
+ase:nuImplicareCadre rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#numarMembri
+ase:numarMembri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#numireProdecani
+ase:numireProdecani rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#numitDe
+ase:numitDe rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#numărSpecific
+ase:numărSpecific rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#obligatieInformare
+ase:obligatieInformare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#obligatii
+ase:obligatii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#obținereResurseProprii
+ase:obținereResurseProprii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ocupareFunctiiDecan
+ase:ocupareFunctiiDecan rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ocupareFunctiiDirectorDepartament
+ase:ocupareFunctiiDirectorDepartament rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ocupareFunctiiDirectorGeneral
+ase:ocupareFunctiiDirectorGeneral rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ocupareFunctiiDirectorScoalaDoctorala
+ase:ocupareFunctiiDirectorScoalaDoctorala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ocupareFunctiiProdecan
+ase:ocupareFunctiiProdecan rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ocupareFunctiiProrector
+ase:ocupareFunctiiProrector rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ocupareFunctiiRector
+ase:ocupareFunctiiRector rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ocuparePost
+ase:ocuparePost rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ocupareaPosturiDidacticeCercetare
+ase:ocupareaPosturiDidacticeCercetare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ordonatorDeCredite
+ase:ordonatorDeCredite rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organismDecizional
+ase:organismDecizional rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizare
+ase:organizare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizareComună
+ase:organizareComună rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizareConcursDecani
+ase:organizareConcursDecani rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizareConcursDirector
+ase:organizareConcursDirector rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizareConcursPosturiDidacticeCercetare
+ase:organizareConcursPosturiDidacticeCercetare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizareFonduriEuropene
+ase:organizareFonduriEuropene rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizareFunctionareStructuri
+ase:organizareFunctionareStructuri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizareInAfara
+ase:organizareInAfara rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizareManifestari
+ase:organizareManifestari rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizareProgramStudii
+ase:organizareProgramStudii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizareReferendum
+ase:organizareReferendum rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#organizeazaSelectieEvaluarePersonal
+ase:organizeazaSelectieEvaluarePersonal rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#parteDinAsociatii
+ase:parteDinAsociatii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#partenerOrganizare
+ase:partenerOrganizare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#partenereOrganizatii
+ase:partenereOrganizatii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#parteneriatePlanNational
+ase:parteneriatePlanNational rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#parteneriatulCuEntități
+ase:parteneriatulCuEntități rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareActivitati
+ase:participareActivitati rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareAsociatiiConsorții
+ase:participareAsociatiiConsorții rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareComisiiAcelasiOrgan
+ase:participareComisiiAcelasiOrgan rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareComunicari
+ase:participareComunicari rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareConcursPublicConducere
+ase:participareConcursPublicConducere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareConcursuri
+ase:participareConcursuri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareFaraSubstante
+ase:participareFaraSubstante rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareFundatiiAsociatiiSocietatiComerciale
+ase:participareFundatiiAsociatiiSocietatiComerciale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareGradatieMerit
+ase:participareGradatieMerit rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareProcesDecizional
+ase:participareProcesDecizional rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareProcesDesemnare
+ase:participareProcesDesemnare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareProcesElaborareRegulamente
+ase:participareProcesElaborareRegulamente rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareRepartizarePractica
+ase:participareRepartizarePractica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#participareSeminare
+ase:participareSeminare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#pastreazaUtilizeaza
+ase:pastreazaUtilizeaza rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#patrimoniuPropriu
+ase:patrimoniuPropriu rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#permiseActivități
+ase:permiseActivități rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#personalDidactic
+ase:personalDidactic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#personalDidacticAuxiliar
+ase:personalDidacticAuxiliar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#plagiatDefinitie
+ase:plagiatDefinitie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#plagiereRezultate
+ase:plagiereRezultate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#plangeriNeintemeiate
+ase:plangeriNeintemeiate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#planÎnvățământ
+ase:planÎnvățământ rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#poateFiiDemis
+ase:poateFiiDemis rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#poateFiiRevocat
+ase:poateFiiRevocat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#practicaSpecialitate
+ase:practicaSpecialitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#precizarePlanÎnvățământ
+ase:precizarePlanÎnvățământ rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#pregatireParticipare
+ase:pregatireParticipare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#prejudiciuIntereseASE
+ase:prejudiciuIntereseASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#prejudiciuInteresePrestigiuASE
+ase:prejudiciuInteresePrestigiuASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#pretindereAcceptareFavoruri
+ase:pretindereAcceptareFavoruri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#prezentareRapoarte
+ase:prezentareRapoarte rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#prezentareRapoarteSenat
+ase:prezentareRapoarteSenat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#prezentareRaportStareaASE
+ase:prezentareRaportStareaASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#prezidareComisieConcursDirectorGeneral
+ase:prezidareComisieConcursDirectorGeneral rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#prezintaRapoarteConsiliuAdministratie
+ase:prezintaRapoarteConsiliuAdministratie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#prezintaRapoarteConsiliuFacultate
+ase:prezintaRapoarteConsiliuFacultate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#prezinteRapoarte
+ase:prezinteRapoarte rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#primireAdeverinteGratuite
+ase:primireAdeverinteGratuite rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#primireBurse
+ase:primireBurse rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#principiiConduita
+ase:principiiConduita rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#principiuPrudentialitateTransparenta
+ase:principiuPrudentialitateTransparenta rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#proceduriEvaluareCalitate
+ase:proceduriEvaluareCalitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#profesionalism
+ase:profesionalism rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#programeStudiiUniversitareDoctorat
+ase:programeStudiiUniversitareDoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#promovareEvaluari
+ase:promovareEvaluari rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#promovareValoriSpațiuEuropeanInvatamantSuperiorCercetareStiintifica
+ase:promovareValoriSpațiuEuropeanInvatamantSuperiorCercetareStiintifica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#promulgator
+ase:promulgator rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#proprietateIntelectuala
+ase:proprietateIntelectuala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propuneNormeDidactice
+ase:propuneNormeDidactice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunePosturiDidactice
+ase:propunePosturiDidactice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propuneSancțiuniDisciplinare
+ase:propuneSancțiuniDisciplinare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereAnSabatic
+ase:propunereAnSabatic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereComisieEtica
+ase:propunereComisieEtica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereFormatiiStudiu
+ase:propunereFormatiiStudiu rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereInfiintareReorganizare
+ase:propunereInfiintareReorganizare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereInfiintareSocietati
+ase:propunereInfiintareSocietati rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereListaPosturiVacante
+ase:propunereListaPosturiVacante rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereMarireNorma
+ase:propunereMarireNorma rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunerePrelungireDurataDoctorat
+ase:propunerePrelungireDurataDoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereProgramNouRenuntareIneficienta
+ase:propunereProgramNouRenuntareIneficienta rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereReorganizareDesfiintare
+ase:propunereReorganizareDesfiintare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereRepetareExamenMedical
+ase:propunereRepetareExamenMedical rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereStateFunctii
+ase:propunereStateFunctii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereStrategii
+ase:propunereStrategii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereStrategiiPolitici
+ase:propunereStrategiiPolitici rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereStructuraAnUniversitar
+ase:propunereStructuraAnUniversitar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereStructuraReglementariASE
+ase:propunereStructuraReglementariASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propunereStructuriInfiintare
+ase:propunereStructuriInfiintare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#propusDe
+ase:propusDe rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#protectieDatePersonale
+ase:protectieDatePersonale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#protectieSpatiuUniversitar
+ase:protectieSpatiuUniversitar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#protejareIdentitateVictime
+ase:protejareIdentitateVictime rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#publicaDecizii
+ase:publicaDecizii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#publicareDecizii
+ase:publicareDecizii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#publicareMaterialeȘtiințifice
+ase:publicareMaterialeȘtiințifice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#publicareSiEditare
+ase:publicareSiEditare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#quorum
+ase:quorum rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#raspundeAcordareCalitateMembru
+ase:raspundeAcordareCalitateMembru rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#raspundeAngajareEvaluarePersonal
+ase:raspundeAngajareEvaluarePersonal rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#raspundeConcursuriOcuparePosturi
+ase:raspundeConcursuriOcuparePosturi rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#raspundeManagementCalitateFinanciar
+ase:raspundeManagementCalitateFinanciar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#raspundeOrganizareConcursuri
+ase:raspundeOrganizareConcursuri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#raspundeRector
+ase:raspundeRector rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#raspundeRevocareCalitateMembru
+ase:raspundeRevocareCalitateMembru rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#realizareActivitățiLegale
+ase:realizareActivitățiLegale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#recunoastereEchivalareStudii
+ase:recunoastereEchivalareStudii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#recunoasterePracticaIndividuala
+ase:recunoasterePracticaIndividuala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#recuperarePrejudiciiPatrimoniu
+ase:recuperarePrejudiciiPatrimoniu rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#regulamentCadrul
+ase:regulamentCadrul rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#regulamentDeOrganizareȘiFuncționare
+ase:regulamentDeOrganizareȘiFuncționare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#regulamentPropriu
+ase:regulamentPropriu rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#regulamente
+ase:regulamente rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#relatiiAfiniRude
+ase:relatiiAfiniRude rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#relatiiCaracterPatrimonial
+ase:relatiiCaracterPatrimonial rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#relatiiInternationale
+ase:relatiiInternationale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#relatiiPublicePromovareASE
+ase:relatiiPublicePromovareASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#remuneratieMunca
+ase:remuneratieMunca rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#reprezentantConsiliuAdministratie
+ase:reprezentantConsiliuAdministratie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#reprezentantLegalASE
+ase:reprezentantLegalASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#reprezentantiPersonalDidactic
+ase:reprezentantiPersonalDidactic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#reprezentantiStudenti
+ase:reprezentantiStudenti rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#reprezentareFacultate
+ase:reprezentareFacultate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#reprezentareForuri
+ase:reprezentareForuri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#reprezentareInterese
+ase:reprezentareInterese rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#reprezentareOrganisme
+ase:reprezentareOrganisme rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#reprezintaFacultate
+ase:reprezintaFacultate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#reprezintaScoalaDoctorala
+ase:reprezintaScoalaDoctorala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respect
+ase:respect rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respectareCodEtica
+ase:respectareCodEtica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respectareCodEticaDeontologie
+ase:respectareCodEticaDeontologie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respectareCuratenie
+ase:respectareCuratenie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respectareDeontologieOriginalitate
+ase:respectareDeontologieOriginalitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respectareDisciplina
+ase:respectareDisciplina rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respectareObligatii
+ase:respectareObligatii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respectareProgramPregatire
+ase:respectareProgramPregatire rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respectareReguli
+ase:respectareReguli rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respectareStandarde
+ase:respectareStandarde rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respecteDisciplina
+ase:respecteDisciplina rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#respecteProgramPregatire
+ase:respecteProgramPregatire rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#responsabilGestionareEconomicoFinanciara
+ase:responsabilGestionareEconomicoFinanciara rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#responsabilManagementFacultate
+ase:responsabilManagementFacultate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#responsabilitate
+ase:responsabilitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#responsabilitateOrganizare
+ase:responsabilitateOrganizare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#restituireExemplarLucrare
+ase:restituireExemplarLucrare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#resurseFinanciare
+ase:resurseFinanciare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#resurseMateriale
+ase:resurseMateriale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#resurseUmane
+ase:resurseUmane rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#retragereaCorectareaLucrari
+ase:retragereaCorectareaLucrari rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#rezervarePostului
+ase:rezervarePostului rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#rezolvareIncompatibilitate
+ase:rezolvareIncompatibilitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#rezultateActivitatiEducatieStiintificePublice
+ase:rezultateActivitatiEducatieStiintificePublice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sanctionareConducatorDoctoratVinovatie
+ase:sanctionareConducatorDoctoratVinovatie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sanctionareDisciplinarCadruDidactic
+ase:sanctionareDisciplinarCadruDidactic rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sanctionareDoctorandTezaCopiataFalsificata
+ase:sanctionareDoctorandTezaCopiataFalsificata rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sanctionareExmatriculareCopiereFalsificare
+ase:sanctionareExmatriculareCopiereFalsificare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sanctionareExmatriculareFinalizareStudii
+ase:sanctionareExmatriculareFinalizareStudii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sanctionarePersonalPerformanteSlabe
+ase:sanctionarePersonalPerformanteSlabe rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sanctionareRevocareFunctieConducere
+ase:sanctionareRevocareFunctieConducere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sarcini
+ase:sarcini rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sarciniStabiliteDe
+ase:sarciniStabiliteDe rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#scoliPostuniversitare
+ase:scoliPostuniversitare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sedinte
+ase:sedinte rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sedinteConducere
+ase:sedinteConducere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sedinteFrecventa
+ase:sedinteFrecventa rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sediu
+ase:sediu rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#selectareConducatoriDoctorat
+ase:selectareConducatoriDoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#selectie
+ase:selectie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#selecțieMembriComunitate
+ase:selecțieMembriComunitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#semnareActeOficiale
+ase:semnareActeOficiale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#semneazaActeDiplome
+ase:semneazaActeDiplome rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#serviciiTehnicoAdministrative
+ase:serviciiTehnicoAdministrative rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#serviciiUrmărire
+ase:serviciiUrmărire rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sesizareAbuzuri
+ase:sesizareAbuzuri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#siteWeb
+ase:siteWeb rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#situatie
+ase:situatie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#situatii
+ase:situatii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#solutionareNemultumiriCaleIerarhica
+ase:solutionareNemultumiriCaleIerarhica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sprijinConferinte
+ase:sprijinConferinte rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sprijinCoordonareDoctorat
+ase:sprijinCoordonareDoctorat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#stabilireColaborareStructuri
+ase:stabilireColaborareStructuri rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#stabilireParteneriate
+ase:stabilireParteneriate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#stabilirePlanuriÎnvățământ
+ase:stabilirePlanuriÎnvățământ rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#stabilitate
+ase:stabilitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#standardeEvaluareCalitate
+ase:standardeEvaluareCalitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#stocCunostinte
+ase:stocCunostinte rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#structura
+ase:structura rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#structuraEducatieCercetare
+ase:structuraEducatieCercetare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#structuraFacultate
+ase:structuraFacultate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#structuraServiciiTehnicoAdministrative
+ase:structuraServiciiTehnicoAdministrative rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#structurare
+ase:structurare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#structură
+ase:structură rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#structurăAnUniversitar
+ase:structurăAnUniversitar rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#studentiDoctoranzi
+ase:studentiDoctoranzi rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#studentiDrepturiDepline
+ase:studentiDrepturiDepline rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#studentiDrepturiDeplineAsigurareCalitate
+ase:studentiDrepturiDeplineAsigurareCalitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#studenți
+ase:studenți rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#studiiGratuite
+ase:studiiGratuite rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#studiileFormareProfesionalăAdult
+ase:studiileFormareProfesionalăAdult rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#studiileFormarePsihopedagogică
+ase:studiileFormarePsihopedagogică rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#studiilePostuniversitare
+ase:studiilePostuniversitare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#studiileUniversitare
+ase:studiileUniversitare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#studiuLimbaInternationala
+ase:studiuLimbaInternationala rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#subordonat
+ase:subordonat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#subventieFinanciaraBursa
+ase:subventieFinanciaraBursa rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#supunereProiectBuget
+ase:supunereProiectBuget rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#suspendareaInscriereConcurs
+ase:suspendareaInscriereConcurs rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sustinereActivitate
+ase:sustinereActivitate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sustinereFinanciara
+ase:sustinereFinanciara rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#sustinereProiecte
+ase:sustinereProiecte rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#taxePerceptie
+ase:taxePerceptie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#termenAplicare
+ase:termenAplicare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#termeneInscriere
+ase:termeneInscriere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#tipografie
+ase:tipografie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#tipuriProgram
+ase:tipuriProgram rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#titularaDreptAdministrareBunuriStat
+ase:titularaDreptAdministrareBunuriStat rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#transferStudentSubventie
+ase:transferStudentSubventie rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#transparențaDecizională
+ase:transparențaDecizională rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#unitățiDeAgrementȘiSociale
+ase:unitățiDeAgrementȘiSociale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#unitățiPrestăriDeServicii
+ase:unitățiPrestăriDeServicii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#utilizareFacilitati
+ase:utilizareFacilitati rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#utilizareResurseSponsorizariConformContract
+ase:utilizareResurseSponsorizariConformContract rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#utilizareResurseTransparent
+ase:utilizareResurseTransparent rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#validareComisieConcurs
+ase:validareComisieConcurs rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#venituriProprii
+ase:venituriProprii rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#verificare
+ase:verificare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#verificareSituatieScolara
+ase:verificareSituatieScolara rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#viataStudenteasca
+ase:viataStudenteasca rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#vigoare
+ase:vigoare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#violentareFizicaPsihica
+ase:violentareFizicaPsihica rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#volumMuncăIntelectuală
+ase:volumMuncăIntelectuală rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#votMajoritate
+ase:votMajoritate rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#ziuaASE
+ase:ziuaASE rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#încredere
+ase:încredere rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#înființareFuncționareȘiDesființare
+ase:înființareFuncționareȘiDesființare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#înființareReorganizareDesființareFacultăți
+ase:înființareReorganizareDesființareFacultăți rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#înființareStructuriOrganizatorice
+ase:înființareStructuriOrganizatorice rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#școliDoctorale
+ase:școliDoctorale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#școliDoctoraleȘiPostdoctorale
+ase:școliDoctoraleȘiPostdoctorale rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#școliPostuniversitare
+ase:școliPostuniversitare rdf:type owl:AnnotationProperty .
+
+
+###  http://www.ase.ro#școliVarăȘiVoluntariat
+ase:școliVarăȘiVoluntariat rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.ase.ro#AutonomiaUniversitaraASE
+ase:AutonomiaUniversitaraASE rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Comunitate
+ase:Comunitate rdf:type owl:Class .
+
+
+###  http://www.ase.ro#ConducereASE
+ase:ConducereASE rdf:type owl:Class .
+
+
+###  http://www.ase.ro#ConduitaProfesionala
+ase:ConduitaProfesionala rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Deontologie
+ase:Deontologie rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Departament
+ase:Departament rdf:type owl:Class .
+
+
+###  http://www.ase.ro#DispozițiiTranzițiiFinale
+ase:DispozițiiTranzițiiFinale rdf:type owl:Class .
+
+
+###  http://www.ase.ro#DrepturiStudent
+ase:DrepturiStudent rdf:type owl:Class .
+
+
+###  http://www.ase.ro#EticaUniversitara
+ase:EticaUniversitara rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Finantare
+ase:Finantare rdf:type owl:Class .
+
+
+###  http://www.ase.ro#FunctieDeConducere
+ase:FunctieDeConducere rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Functionalitate
+ase:Functionalitate rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Gestionare
+ase:Gestionare rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Incompatibilitate
+ase:Incompatibilitate rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Libertate
+ase:Libertate rdf:type owl:Class .
+
+
+###  http://www.ase.ro#ManagementCalitate
+ase:ManagementCalitate rdf:type owl:Class .
+
+
+###  http://www.ase.ro#MisiuneaASE
+ase:MisiuneaASE rdf:type owl:Class .
+
+
+###  http://www.ase.ro#ObligatiiStudent
+ase:ObligatiiStudent rdf:type owl:Class .
+
+
+###  http://www.ase.ro#OrganismDeliberativ
+ase:OrganismDeliberativ rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Patrimoniu
+ase:Patrimoniu rdf:type owl:Class .
+
+
+###  http://www.ase.ro#PersonalDidacticCercetare
+ase:PersonalDidacticCercetare rdf:type owl:Class .
+
+
+###  http://www.ase.ro#ProgrameDeStudiiASE
+ase:ProgrameDeStudiiASE rdf:type owl:Class .
+
+
+###  http://www.ase.ro#RelatiiParteneriat
+ase:RelatiiParteneriat rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Reprezentare
+ase:Reprezentare rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Resurse
+ase:Resurse rdf:type owl:Class .
+
+
+###  http://www.ase.ro#StructuraConducere
+ase:StructuraConducere rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Structuri
+ase:Structuri rdf:type owl:Class .
+
+
+###  http://www.ase.ro#StudentStatus
+ase:StudentStatus rdf:type owl:Class .
+
+
+###  http://www.ase.ro#Universitate
+ase:Universitate rdf:type owl:Class .
+
+
+###  http://www.ase.ro#ValoriFundamentale
+ase:ValoriFundamentale rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.ase.ro#ASE
+ase:ASE rdf:type owl:NamedIndividual ,
+                 ase:Universitate ;
+        ase:acreditare "Grad de încredere ridicat" ;
+        ase:character "nonprofit, de interes public, independentă" ;
+        ase:denumireInEngleza "Bucharest University of Economic Studies" ;
+        ase:denumireOficiala "Academia de Studii Economice din București" ;
+        ase:infiintare [ ase:decretRegal "nr. 2978 din data de 6 aprilie 1913" ;
+                         ase:lege "Legea Academiei de Înalte Studii Comerciale și Industriale" ;
+                         ase:promulgator "regele Carol I"
+                       ] ;
+        ase:sediu "România, București, Piața Romană nr. 6, sector 1" ;
+        ase:siteWeb "www.ase.ro" ;
+        ase:ziuaASE "6 aprilie" .
+
+
+###  http://www.ase.ro#AbateriEtice
+ase:AbateriEtice rdf:type owl:NamedIndividual ,
+                          ase:EticaUniversitara ;
+                 ase:activitatiNeremunerateInFavoareaCadruDidactic "true"^^xsd:boolean ;
+                 ase:activitatiRemunerateInFavoareaStudentului "true"^^xsd:boolean ;
+                 ase:atacuriPersonale "true"^^xsd:boolean ;
+                 ase:conditionareParticipareExaminare "true"^^xsd:boolean ;
+                 ase:conduitaContradictorieCod "true"^^xsd:boolean ;
+                 ase:discriminari "vârstă, etnie, sex, origine socială, orientare politică sau religioasă, orientare sexuală sau alte tipuri de discriminări" ;
+                 ase:plangeriNeintemeiate "true"^^xsd:boolean ;
+                 ase:pretindereAcceptareFavoruri "true"^^xsd:boolean ;
+                 ase:violentareFizicaPsihica "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#AbateriGrave
+ase:AbateriGrave rdf:type owl:NamedIndividual ,
+                          ase:ConduitaProfesionala ;
+                 ase:autoplagiereRezultate "true"^^xsd:boolean ;
+                 ase:comercializareaLucrariStiintifice "true"^^xsd:boolean ;
+                 ase:confectieRezultateStiintifice "true"^^xsd:boolean ;
+                 ase:incercarePromovareExamenMită "true"^^xsd:boolean ;
+                 ase:informatiiFalseSolicitariGranturi "true"^^xsd:boolean ;
+                 ase:plagiatDefinitie "expunerea într-o operă scrisă sau o comunicare orală, inclusiv în format electronic, a unor texte, expresii, idei, demonstrații, date, ipoteze, teorii, rezultate ori metode științifice extrase din opere scrise, inclusiv în format electronic, ale altor autori, fără a menționa acest lucru și fără a face trimitere la sursele originale" ;
+                 ase:plagiereRezultate "true"^^xsd:boolean ;
+                 ase:sanctionareConducatorDoctoratVinovatie "true"^^xsd:boolean ;
+                 ase:sanctionareDisciplinarCadruDidactic "true"^^xsd:boolean ;
+                 ase:sanctionareDoctorandTezaCopiataFalsificata "true"^^xsd:boolean ;
+                 ase:sanctionareExmatriculareCopiereFalsificare "true"^^xsd:boolean ;
+                 ase:sanctionareExmatriculareFinalizareStudii "true"^^xsd:boolean ;
+                 ase:sanctionareRevocareFunctieConducere "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#ActivitatiCulturaleEducativeSportive
+ase:ActivitatiCulturaleEducativeSportive rdf:type owl:NamedIndividual ,
+                                                  ase:Reprezentare ;
+                                         ase:aprobareSpatii "de către conducerea universității" ;
+                                         ase:incourageazaActivitati "activitățile cultural-educative și sportive ale studenților" ;
+                                         ase:organizareInAfara "programului de studiu, fără a prejudicia activitatea profesional-științifică" ;
+                                         ase:organizareManifestari "culturale, sportive, conferințe profesionale și științifice, acțiuni de educație sanitară, cenacluri" ;
+                                         ase:partenereOrganizatii "în toate acțiunile pe care le promovează ASE" ;
+                                         ase:responsabilitateOrganizare "revine inițiatorilor" ;
+                                         ase:sustinereFinanciara "și logistică, în limita resurselor disponibile, organizațiilor studențești" .
+
+
+###  http://www.ase.ro#AmendareAprobareCarta
+ase:AmendareAprobareCarta rdf:type owl:NamedIndividual ,
+                                   ase:DispozițiiTranzițiiFinale ;
+                          ase:aprobare "Senatul universitar, vot deschis cu majoritate absolută, prezență minimum două treimi dintre membrii senatori" ;
+                          ase:initiativaAmendare "Consiliului de Administrație, o treime din membrii Senatului, o treime din personalul didactic și de cercetare titular, o treime din studenții înmatriculați în ASE" .
+
+
+###  http://www.ase.ro#AplicareSancțiuniRector
+ase:AplicareSancțiuniRector rdf:type owl:NamedIndividual ,
+                                     ase:EticaUniversitara ;
+                            ase:executor "Rector" ;
+                            ase:termenAplicare "maximum 30 de zile de la comunicarea scrisă" .
+
+
+###  http://www.ase.ro#AutonomiaUniversitară
+ase:AutonomiaUniversitară rdf:type owl:NamedIndividual ,
+                                   ase:AutonomiaUniversitaraASE ;
+                          ase:autonomieDidactică [ ase:conținutProgramStudii "true"^^xsd:boolean ;
+                                                   ase:managementActivitățiPredare "true"^^xsd:boolean ;
+                                                   ase:standardeEvaluareCalitate "true"^^xsd:boolean ;
+                                                   ase:înființareReorganizareDesființareFacultăți "true"^^xsd:boolean
+                                                 ] ;
+                          ase:autonomieFinanciară [ ase:acceptareDonații "true"^^xsd:boolean ;
+                                                    ase:constituireUnitățiGeneratoareVenit "true"^^xsd:boolean ;
+                                                    ase:elaborareBuget "true"^^xsd:boolean ;
+                                                    ase:modulAdministrareSpațiu "true"^^xsd:boolean ;
+                                                    ase:obținereResurseProprii "true"^^xsd:boolean ;
+                                                    ase:utilizareResurseTransparent "true"^^xsd:boolean
+                                                  ] ;
+                          ase:autonomieFuncțională [ ase:facilitareMobilitate "true"^^xsd:boolean ;
+                                                     ase:inițiereParteneriate "true"^^xsd:boolean ;
+                                                     ase:publicareMaterialeȘtiințifice "true"^^xsd:boolean ;
+                                                     ase:realizareActivitățiLegale "true"^^xsd:boolean ;
+                                                     ase:stabilirePlanuriÎnvățământ "true"^^xsd:boolean ;
+                                                     ase:înființareStructuriOrganizatorice "true"^^xsd:boolean
+                                                   ] ;
+                          ase:drepturiComunitate [ ase:alegereStructuriȘiFuncțiiConducere "true"^^xsd:boolean ;
+                                                   ase:elaborareCadrulReglementar "true"^^xsd:boolean ;
+                                                   ase:selecțieMembriComunitate "true"^^xsd:boolean
+                                                 ] ;
+                          ase:garantatăPrin "Constituția României" ;
+                          ase:include [ ase:autonomieDidacticăȘiȘtiințifică "true"^^xsd:boolean ;
+                                        ase:autonomieFinanciarăȘiAdministrativă "true"^^xsd:boolean ;
+                                        ase:autonomieInstituționalăȘiFuncțională "true"^^xsd:boolean
+                                      ] .
+
+
+###  http://www.ase.ro#CheltuieliSiGestionareResurseASE
+ase:CheltuieliSiGestionareResurseASE rdf:type owl:NamedIndividual ,
+                                              ase:Gestionare ;
+                                     ase:cheltuieliCuRespectareaLegii "true"^^xsd:boolean ;
+                                     ase:constituireDezvoltareInstrainareBazaMateriala "propun de către Consiliul de Administrație și se aprobă de către Senat" ;
+                                     ase:principiuPrudentialitateTransparenta "true"^^xsd:boolean ;
+                                     ase:utilizareResurseSponsorizariConformContract "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#ComisiaConfidențialitate
+ase:ComisiaConfidențialitate rdf:type owl:NamedIndividual ,
+                                      ase:EticaUniversitara ;
+                             ase:minimizareTeamaHărțuireSexuală "true"^^xsd:boolean ;
+                             ase:modSoluționare "confidențial" ;
+                             ase:protejareIdentitateVictime "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#ComisiaDeEtica
+ase:ComisiaDeEtica rdf:type owl:NamedIndividual ,
+                            ase:Reprezentare ;
+                   ase:atributii "analizează abaterile de la etica universitară; soluționează sesizările analizate, propunând sancțiunile; elaborează și face public un raport anual" ;
+                   ase:compozitie "propuse de Consiliul de Administrație, avizate de Senatul universitar și aprobate de Rector" ;
+                   ase:constituire "Comisia de etică și deontologie universitară" ;
+                   ase:excludere "persoanele care ocupă una din funcțiile de rector, prorector, director CSUD, decan, prodecan, director general administrativ, director de departament, director de școală doctorală, alte funcții prevăzute de lege" ;
+                   ase:hotarari "avizate de consilierul juridic al ASE; Răspunderea juridică pentru hotărârile și activitatea comisiei de etică universitară revine conducerii ASE" .
+
+
+###  http://www.ase.ro#ComunitateaUniversitară
+ase:ComunitateaUniversitară rdf:type owl:NamedIndividual ,
+                                     ase:Comunitate ;
+                            ase:atribuții [ ase:calitateCercetătorPostdoctorat "persoanele care au obținut titlul de doctor în științe și au fost admise într-un program postdoctoral de cercetare avansată oferit de ASE" ;
+                                            ase:calitateCursant "persoanele care urmează un program postuniversitar de formare și dezvoltare profesională continuă, respectiv un program de formare profesională a adulților" ;
+                                            ase:calitatePersonalDidactic "titular sau asociat, funcții didactice și de cercetare" ;
+                                            ase:calitateStudenți "promovarea concursului de admitere, emiterea deciziei de înmatriculare și încheierea contractului de studii"
+                                          ] ;
+                            ase:atribuțiiPersonal "Atribuțiile personalului didactic și de cercetare, ale personalului didactic auxiliar și nedidactic sunt stabilite în fișa individuală a postului, ce este avizată de conducătorul ierarhic și aprobată de Rector, fiind anexă la contractul individual de muncă" ;
+                            ase:colaborareViziuneMisiuneObiective "true"^^xsd:boolean ;
+                            ase:dialogSocial "true"^^xsd:boolean ;
+                            ase:echivalareFuncții "Echivalarea funcțiilor de cercetare cu funcțiile didactice se realizează conform legislației în vigoare" ;
+                            ase:includeCercetătoriPostdoctorat "true"^^xsd:boolean ;
+                            ase:includeCursanți "true"^^xsd:boolean ;
+                            ase:includePersonalDidactic "true"^^xsd:boolean ;
+                            ase:includePersonalDidacticAuxiliar "true"^^xsd:boolean ;
+                            ase:includeStudenți "true"^^xsd:boolean ;
+                            ase:structurare [ ase:cercetătoriPostdoctorat "pe şcoli postdoctorale, proiecte, pe arii tematice și pe tutorate" ;
+                                              ase:cursanți "în cadrul programelor postuniversitare și a celor de formare profesională a adulților" ;
+                                              ase:personalDidactic "în cadrul departamentelor, direcţiilor, centrelor sau institutelor de cercetare" ;
+                                              ase:personalDidacticAuxiliar "în cadrul direcțiilor, compartimentelor, serviciilor și birourilor" ;
+                                              ase:studenți "în cadrul facultăților, la studii universitare de licență, masterat sau doctorat, pe programe de studii, forme de învățământ, ani de studii, serii și grupe de studii"
+                                            ] .
+
+
+###  http://www.ase.ro#ConflictDeInterese
+ase:ConflictDeInterese rdf:type owl:NamedIndividual ,
+                                ase:Reprezentare ;
+                       ase:deciziiSauActe "adoptate ori încheiate în condiții de conflict de interese" ;
+                       ase:incompatibilitati "relație de soți, afini și rude până la gradul al III-lea" ;
+                       ase:influenta "îndeplinirea cu obiectivitate și imparțialitate a atribuțiilor" ;
+                       ase:interesPersonal "orice avantaj, material sau de altă natură, urmărit sau obținut" ;
+                       ase:obligatieInformare "informeze în scris, de îndată, structura deliberativă sau persoana superioară ierarhic" ;
+                       ase:situatie "persoana are sau ar putea avea un interes personal de natură patrimonială sau nepatrimonială" ;
+                       ase:verificare "Comisia de etică și deontologie universitară" .
+
+
+###  http://www.ase.ro#ConsiliulDeAdministratieAtributii
+ase:ConsiliulDeAdministratieAtributii rdf:type owl:NamedIndividual ,
+                                               ase:OrganismDeliberativ ;
+                                      ase:analizaPlanuriInvatamant "analizează și înaintează Senatului universitar spre aprobare planurile de învățământ ale programelor de studii" ;
+                                      ase:aprobareCereriConcedii "aprobă cererile de concedii fără plată ale personalului titular didactic și de cercetare care, din proprie inițiativă, solicită să se specializeze sau să participe la cercetare științifică în țară sau în străinătate" ;
+                                      ase:aprobareConcursPosturi "aprobă propunerile departamentelor de scoatere la concurs a posturilor didactice și de cercetare și a celor propuse pentru promovare" ;
+                                      ase:aprobareOperatiuniFinanciare "aprobă operațiunile financiare care depășesc plafoanele de cheltuieli stabilite de Senatul universitar" ;
+                                      ase:avizareExamenMedical "avizează propunerile făcute de către Rector privind repetarea examenului medical complet al angajaților" ;
+                                      ase:avizareRaportRegie "la sfârșitul fiecărui an calendaristic, avizează raportul Rectorului referitor la nivelul regiei și la modul în care au fost efectuate cheltuielile pentru granturile de cercetare" ;
+                                      ase:elaborareBugetBilant "elaborează bugetul și întocmește bilanțul anual" ;
+                                      ase:elaborareRegulamenteMetodologii [ ase:admitere "inclusiv oferta educațională" ;
+                                                                            ase:alteAspecteActivitati "alte aspecte ale activității profesionale și științifice" ;
+                                                                            ase:conferireaTitlurilorDistinctii "true"^^xsd:boolean ;
+                                                                            ase:cooperareInternationala "modalitățile în care se organizează acțiunile de cooperare internațională" ;
+                                                                            ase:cuantificareOreConventii "true"^^xsd:boolean ;
+                                                                            ase:evaluarePeriodicaPersonalDidactic "true"^^xsd:boolean ;
+                                                                            ase:ocupareaPosturiDidacticeCercetare "true"^^xsd:boolean ;
+                                                                            ase:organizareFunctionareStructuri "true"^^xsd:boolean ;
+                                                                            ase:recunoastereEchivalareStudii "true"^^xsd:boolean ;
+                                                                            ase:sanctionarePersonalPerformanteSlabe "true"^^xsd:boolean ;
+                                                                            ase:taxePerceptie "reducerea acestora și scutirea de plată"
+                                                                          ] ;
+                                      ase:indeplinireAlteAtributii "îndeplinește alte atribuții stabilite de Senatul universitar, conform legii." ;
+                                      ase:organizareConcursDirector "organizează concursul pentru ocuparea postului de Director General Administrativ" ;
+                                      ase:propunereAnSabatic "propune Senatului acordarea anului sabatic" ;
+                                      ase:propunereComisieEtica "propune Senatului spre avizare componența și structura Comisiei de etică și deontologie universitară" ;
+                                      ase:propunereFormatiiStudiu "propune Senatului formațiile de studiu și dimensiunile acestora, cu respectarea standardelor de eficiență și asigurare a calității" ;
+                                      ase:propunereInfiintareSocietati "propune Senatului înființarea de societăți comerciale, fundații sau asociații și acordarea dreptului de administrare și folosință asupra activelor patrimoniale" ;
+                                      ase:propunereListaPosturiVacante "propune Senatului lista posturilor vacante destinate promovării în cariera didactică" ;
+                                      ase:propunereMarireNorma "propune Senatului mărirea normei didactice săptămânale minime, cu respectarea standardelor de asigurare a calității și a prevederilor legale incidente" ;
+                                      ase:propunerePrelungireDurataDoctorat "în situații speciale, la propunerea conducătorului de doctorat propune Senatului prelungirea duratei programului de studii universitare de doctorat, conform legislației în vigoare" ;
+                                      ase:propunereProgramNouRenuntareIneficienta "propune Senatului inițierea unor programe noi de studii și renunțarea la cele care nu mai corespund misiunii ASE sau care sunt ineficiente" ;
+                                      ase:propunereStateFunctii "propune Senatului, spre aprobare, statele de funcții ale personalului didactic și de cercetare, precum și numărul posturilor pentru personalul didactic și de cercetare, auxiliar" ;
+                                      ase:propunereStrategiiPolitici "propune Senatului universitar strategii și politici pe domenii de interes ale ASE" ;
+                                      ase:propunereStructuraAnUniversitar "propune Senatului, până în luna iunie a fiecărui an, structura anului universitar, regulamentul privind activitatea profesională a studenților, precum și calendarul activităților educaționale specifice semestrelor academice de studiu" ;
+                                      ase:propunereStructuriInfiintare "propune Senatului universitar înființarea, funcționarea, reorganizarea și desființarea structurilor de învățământ și cercetare ale ASE" ;
+                                      ase:stabilireColaborareStructuri "stabilește modalitățile de colaborare dintre structurile de conducere ale ASE și sindicatele personalului didactic, de cercetare, tehnic și administrativ și organizațiile studențești legal constituite" ;
+                                      ase:stabilireParteneriate "stabilește condițiile de încheiere a contractelor de parteneriat cu instituțiile publice sau operatorii economici" ;
+                                      ase:validareComisieConcurs "validează componenţa nominală a comisiei de concurs și de examen de promovare în cariera didactică, precum și a comisiilor de contestații" .
+
+
+###  http://www.ase.ro#ConsiliulDepartamentului
+ase:ConsiliulDepartamentului rdf:type owl:NamedIndividual ,
+                                      ase:OrganismDeliberativ ;
+                             ase:ajutorDirectorDepartament "true"^^xsd:boolean ;
+                             ase:alegeri "votul universal, direct și secret al tuturor cadrelor didactice și de cercetare titulare în departament" ;
+                             ase:regulamentPropriu "Regulamentul propriu de funcționare" .
+
+
+###  http://www.ase.ro#ConsiliulFacultatii
+ase:ConsiliulFacultatii rdf:type owl:NamedIndividual ,
+                                 ase:OrganismDeliberativ ;
+                        ase:alegeri "votul universal, direct și secret" ;
+                        ase:atributii [ ase:propunereStrategii "strategii și politici în domenii de interes ale facultății"
+                                      ] ;
+                        ase:comisiiSpecialitate "true"^^xsd:boolean ;
+                        ase:compozitie [ ase:reprezentantiPersonalDidactic "maximum 75%" ;
+                                         ase:reprezentantiStudenti "minimum 25%"
+                                       ] ;
+                        ase:conditiiMembriPersonalDidactic "titular în ASE" ;
+                        ase:conditiiMembriStudenti "înmatriculați ca studenți ai facultății" ;
+                        ase:quorum "două treimi dintre membri" ;
+                        ase:sedinteConducere "Decan" ;
+                        ase:sedinteFrecventa "trimestrial" ;
+                        ase:votMajoritate "majorității membrilor prezenți" .
+
+
+###  http://www.ase.ro#ConsiliulScoliiDoctorale
+ase:ConsiliulScoliiDoctorale rdf:type owl:NamedIndividual ,
+                                      ase:OrganismDeliberativ ;
+                             ase:ajutorDirectorScoliiDoctorale "true"^^xsd:boolean ;
+                             ase:alegeri "votul universal, direct și secret al tuturor membrilor școlii doctorale" ;
+                             ase:regulamentPropriu "Regulamentul propriu de funcționare" .
+
+
+###  http://www.ase.ro#ConsiliulStudiiUniversitareDoctorat
+ase:ConsiliulStudiiUniversitareDoctorat rdf:type owl:NamedIndividual ,
+                                                 ase:OrganismDeliberativ ;
+                                        ase:atributii [ ase:atributiiSpecifice "alte atribuții specifice, stabilite prin regulamentul instituțional de organizare și desfășurare a programelor de studii universitare de doctorat, potrivit legii" ;
+                                                        ase:coordonareParteneriate "coordonarea parteneriatelor la care participă școlile doctorale din ASE" ;
+                                                        ase:elaborareRegulamentDoctorat "elaborarea regulamentului instituțional de organizare și desfășurare a programelor de studii universitare de doctorat la nivelul ASE" ;
+                                                        ase:propunereInfiintareReorganizare "propune Consiliului de Administrație aprobarea înființării, reorganizării și desființării școlilor doctorale din cadrul ASE" ;
+                                                        ase:selectareConducatoriDoctorat "selectarea conducătorilor de doctorat care pot face parte dintr-o școală doctorală nou-înființată"
+                                                      ] ;
+                                        ase:cadreDidactice "true"^^xsd:boolean ;
+                                        ase:cercetatori "true"^^xsd:boolean ;
+                                        ase:conditiiMembriCadreDidactice "cadre didactice universitare sau cercetători cu dreptul de a conduce doctorate, conform standardelor minimale și obligatorii pentru acordarea atestatului de abilitare" ;
+                                        ase:coordonareProgramDoctorat "coordonează programele de studii universitare de doctorat în cadrul ASE" ;
+                                        ase:director [ ase:desemnare "desemnat în urma unui concurs public organizat de către Rector, în baza unei metodologii aprobate de către Senatul universitar în conformitate cu prevederile Codului privind studiile universitare de doctorat" ;
+                                                       ase:functieAsimilata "asimilată celei de prorector"
+                                                     ] ;
+                                        ase:mandatCadreDidactice "4 ani" ;
+                                        ase:mandatStudentiDoctoranzi "2 ani" ;
+                                        ase:numarMembri 17 ;
+                                        ase:studentiDoctoranzi "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#DateAprobareModificare
+ase:DateAprobareModificare rdf:type owl:NamedIndividual ,
+                                    ase:DispozițiiTranzițiiFinale ;
+                           ase:dataAprobare "27 martie 2019" ;
+                           ase:dataModificare "02 iunie 2020" ;
+                           ase:vigoare "după rezoluția pozitivă a Ministerului Educației și Cercetării" .
+
+
+###  http://www.ase.ro#Decan
+ase:Decan rdf:type owl:NamedIndividual ,
+                   ase:FunctieDeConducere ;
+          ase:membruDeDreptConsiliulAdministratie "true"^^xsd:boolean ;
+          ase:poateFiiDemis [ ase:de "Rector, în urma consultării Consiliului facultății" ;
+                              ase:situatii [ ase:incalcareCodEticaDeontologie "true"^^xsd:boolean ;
+                                             ase:incalcareLegislatieNormeEtica "true"^^xsd:boolean ;
+                                             ase:incompatibilitateLegal "true"^^xsd:boolean ;
+                                             ase:neindeplinireIndicatoriPerformanta "true"^^xsd:boolean ;
+                                             ase:neindeplinireSarcini "true"^^xsd:boolean ;
+                                             ase:prejudiciuInteresePrestigiuASE "true"^^xsd:boolean
+                                           ]
+                            ] ;
+          ase:reprezintaFacultate "true"^^xsd:boolean ;
+          ase:responsabilManagementFacultate "true"^^xsd:boolean ;
+          ase:sarcini [ ase:anulareRezultatEvaluare "true"^^xsd:boolean ;
+                        ase:aplicareHotarari "true"^^xsd:boolean ;
+                        ase:avizeazaFisaPostului "true"^^xsd:boolean ;
+                        ase:conducereSedinteConsiliulFacultatii "true"^^xsd:boolean ;
+                        ase:indeplinesteSarciniStabilite "true"^^xsd:boolean ;
+                        ase:numireProdecani "true"^^xsd:boolean ;
+                        ase:prezintaRapoarteConsiliuAdministratie "true"^^xsd:boolean ;
+                        ase:prezintaRapoarteConsiliuFacultate "true"^^xsd:boolean ;
+                        ase:propuneSancțiuniDisciplinare "true"^^xsd:boolean ;
+                        ase:publicaDecizii "true"^^xsd:boolean ;
+                        ase:raspundeAngajareEvaluarePersonal "true"^^xsd:boolean ;
+                        ase:raspundeConcursuriOcuparePosturi "true"^^xsd:boolean ;
+                        ase:raspundeManagementCalitateFinanciar "true"^^xsd:boolean ;
+                        ase:semneazaActeDiplome "true"^^xsd:boolean
+                      ] ;
+          ase:selectie "concurs public, organizat de noul Rector și validat de Senatul universitar" .
+
+
+###  http://www.ase.ro#DeontologiaUniversitară
+ase:DeontologiaUniversitară rdf:type owl:NamedIndividual ,
+                                     ase:Deontologie ;
+                            ase:asumareObligații "asumarea tuturor obligațiilor ce rezultă din statutul, poziția profesională, funcția administrativă, competența și autoritatea profesională și științifică" ;
+                            ase:demnitateȘiConduită "demnitate, conștiința datoriei, moderație, tact, solidaritate, diligență, corectitudine, loialitate, conduită care să asigure o bună reputație membrilor comunităţii" .
+
+
+###  http://www.ase.ro#DepartamentUnitateAcademica
+ase:DepartamentUnitateAcademica rdf:type owl:NamedIndividual ,
+                                         ase:Departament ;
+                                ase:asiguraProducereaCunoasterii "în unul sau mai multe domenii de specialitate" ;
+                                ase:conducere "condus de un director ajutat de un consiliu" ;
+                                ase:infiintare "se înființează, funcționează, se reorganizează sau se desființează prin hotărâre a Senatului universitar, la propunerea Consiliului facultății în care funcționează" ;
+                                ase:regulamentCadrul "Organizarea și funcționarea departamentelor se stabilesc printr-un regulament cadru aprobat de către Senat. În baza acestuia, departamentele își pot elabora regulamente de organizare și funcționare proprii în care se pot detalia modalități specifice de organizare, atribuțiile consiliilor departamentului, funcționarea centrelor de cercetare și alte aspecte de natură funcțională." ;
+                                ase:structura [ ase:centreCercetare "true"^^xsd:boolean ;
+                                                ase:centreConsultanta "true"^^xsd:boolean ;
+                                                ase:laboratoare "true"^^xsd:boolean ;
+                                                ase:scoliPostuniversitare "true"^^xsd:boolean
+                                              ] .
+
+
+###  http://www.ase.ro#DirectorCSUD
+ase:DirectorCSUD rdf:type owl:NamedIndividual ,
+                          ase:FunctieDeConducere .
+
+
+###  http://www.ase.ro#DirectorGeneralAdjunctAdministrativ
+ase:DirectorGeneralAdjunctAdministrativ rdf:type owl:NamedIndividual ,
+                                                 ase:FunctieDeConducere ;
+                                        ase:conduceComponenteStructuraAdministrativa "Regulamentul de organizare și funcționare și prin organigrama structurii tehnico-administrative aprobate de Senatul Universitar" ;
+                                        ase:subordonat ase:DirectorGeneralAdministrativ .
+
+
+###  http://www.ase.ro#DirectorGeneralAdministrativ
+ase:DirectorGeneralAdministrativ rdf:type owl:NamedIndividual ,
+                                          ase:FunctieDeConducere ;
+                                 ase:conduceStructuraAdministrativaASE "true"^^xsd:boolean ;
+                                 ase:ocuparePost "concurs organizat de către Consiliul de Administrație, validat de către Senatul universitar" ;
+                                 ase:poateFiiDemis [ ase:de "Rector, în urma consultării Consiliului de Administrație" ;
+                                                     ase:situatii [ ase:incalcareLegislatieNormeEtica "true"^^xsd:boolean ;
+                                                                    ase:neindeplinireSarcini "true"^^xsd:boolean ;
+                                                                    ase:prejudiciuIntereseASE "true"^^xsd:boolean
+                                                                  ]
+                                                   ] ;
+                                 ase:responsabilGestionareEconomicoFinanciara "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#DirectorulDeDepartament
+ase:DirectorulDeDepartament rdf:type owl:NamedIndividual ,
+                                     ase:FunctieDeConducere ;
+                            ase:asiguraConducereOperativa "true"^^xsd:boolean ;
+                            ase:poateFiiRevocat [ ase:de "Rector, cu aprobarea Senatului" ;
+                                                  ase:situatii [ ase:cerereMajoritatePersonal "true"^^xsd:boolean ;
+                                                                 ase:incalcareCodEticaDeontologie "true"^^xsd:boolean ;
+                                                                 ase:incalcareIndatoriri "true"^^xsd:boolean ;
+                                                                 ase:incompatibilitateLegal "true"^^xsd:boolean ;
+                                                                 ase:prejudiciuInteresePrestigiuASE "true"^^xsd:boolean
+                                                               ]
+                                                ] ;
+                            ase:sarcini [ ase:avizeazaCereriAnSabatic "true"^^xsd:boolean ;
+                                          ase:contribuiePlanuriDeInvatamant "true"^^xsd:boolean ;
+                                          ase:coordoneazaCercetare "true"^^xsd:boolean ;
+                                          ase:elaboreazaStateDeFunctii "true"^^xsd:boolean ;
+                                          ase:imbunatatesteEducatieCercetare "true"^^xsd:boolean ;
+                                          ase:indeplinesteSarciniFisaPostului "true"^^xsd:boolean ;
+                                          ase:intocmesteFiseDePost "true"^^xsd:boolean ;
+                                          ase:organizeazaSelectieEvaluarePersonal "true"^^xsd:boolean ;
+                                          ase:propuneNormeDidactice "true"^^xsd:boolean ;
+                                          ase:propunePosturiDidactice "true"^^xsd:boolean ;
+                                          ase:raspundeManagementCalitateFinanciar "true"^^xsd:boolean ;
+                                          ase:raspundeOrganizareConcursuri "true"^^xsd:boolean
+                                        ] ;
+                            ase:selectie "vot universal, direct și secret al tuturor cadrelor didactice și de cercetare, validat de Rector" .
+
+
+###  http://www.ase.ro#DirectorulScoliiDoctorale
+ase:DirectorulScoliiDoctorale rdf:type owl:NamedIndividual ,
+                                       ase:FunctieDeConducere ;
+                              ase:asiguraConducereOperativa "true"^^xsd:boolean ;
+                              ase:poateFiiRevocat [ ase:de "CSUD" ;
+                                                    ase:situatii [ ase:cerereMajoritateSimpleConducatoriDoctorat "true"^^xsd:boolean ;
+                                                                   ase:incalcareCodEticaDeontologie "true"^^xsd:boolean ;
+                                                                   ase:incalcareIndatoririStandardePerformanta "true"^^xsd:boolean ;
+                                                                   ase:incompatibilitateLegal "true"^^xsd:boolean ;
+                                                                   ase:prejudiciuInteresePrestigiuASE "true"^^xsd:boolean
+                                                                 ]
+                                                  ] ;
+                              ase:sarcini [ ase:asiguraAutoevaluarePeriodica "true"^^xsd:boolean ;
+                                            ase:asistaEvaluatoriEvaluareExternaInterna "true"^^xsd:boolean ;
+                                            ase:avizeazaComisiiSustinerePublicaTeze "true"^^xsd:boolean ;
+                                            ase:coordoneazaEvaluareDosareAbilitare "true"^^xsd:boolean ;
+                                            ase:coordoneazaPropuneriInmatriculareExmatriculare "true"^^xsd:boolean ;
+                                            ase:coordoneazaPropuneriIntreruperePrelungireProgram "true"^^xsd:boolean ;
+                                            ase:coordoneazaRegulamentScoalaDoctorala "true"^^xsd:boolean ;
+                                            ase:decideSchimbareConducatorDoctorat "true"^^xsd:boolean ;
+                                            ase:raspundeAcordareCalitateMembru "true"^^xsd:boolean ;
+                                            ase:raspundeRevocareCalitateMembru "true"^^xsd:boolean ;
+                                            ase:reprezintaScoalaDoctorala "true"^^xsd:boolean
+                                          ] ;
+                              ase:selectie "numit de către CSUD, la propunerea Consiliului Școlii doctorale, în urma alegerilor la care participă toți conducătorii de doctorat care fac parte din aceasta" .
+
+
+###  http://www.ase.ro#DrepturileSiObligatiilePersonaluluiDidacticSiDeCercetare
+ase:DrepturileSiObligatiilePersonaluluiDidacticSiDeCercetare rdf:type owl:NamedIndividual ,
+                                                                      ase:PersonalDidacticCercetare ;
+                                                             ase:drepturi [ ase:alegereSiAlegereInStructuri "true"^^xsd:boolean ;
+                                                                            ase:candidareGranturi "true"^^xsd:boolean ;
+                                                                            ase:concediiCuPlata "true"^^xsd:boolean ;
+                                                                            ase:concediiFaraPlata "true"^^xsd:boolean ;
+                                                                            ase:concediuOdihna "true"^^xsd:boolean ;
+                                                                            ase:exprimareLiberaOpinii "true"^^xsd:boolean ;
+                                                                            ase:mobilitateInternationala "true"^^xsd:boolean ;
+                                                                            ase:parteDinAsociatii "true"^^xsd:boolean ;
+                                                                            ase:participareConcursPublicConducere "true"^^xsd:boolean ;
+                                                                            ase:participareGradatieMerit "true"^^xsd:boolean ;
+                                                                            ase:proprietateIntelectuala "true"^^xsd:boolean ;
+                                                                            ase:protectieSpatiuUniversitar "true"^^xsd:boolean ;
+                                                                            ase:publicareSiEditare "true"^^xsd:boolean ;
+                                                                            ase:remuneratieMunca "true"^^xsd:boolean ;
+                                                                            ase:rezervarePostului "true"^^xsd:boolean
+                                                                          ] ;
+                                                             ase:obligatii [ ase:activitateDidacticaCercetareCalitate "true"^^xsd:boolean ;
+                                                                             ase:contribuireMisiuneASE "true"^^xsd:boolean ;
+                                                                             ase:controlMedicalPeriodic "true"^^xsd:boolean ;
+                                                                             ase:evaluarePeriodica "true"^^xsd:boolean ;
+                                                                             ase:indeplinireSarciniContract "true"^^xsd:boolean ;
+                                                                             ase:respectareCodEticaDeontologie "true"^^xsd:boolean ;
+                                                                             ase:respectareDeontologieOriginalitate "true"^^xsd:boolean
+                                                                           ] .
+
+
+###  http://www.ase.ro#DrepturileStudentilor
+ase:DrepturileStudentilor rdf:type owl:NamedIndividual ,
+                                   ase:DrepturiStudent ;
+                          ase:accesHotarari "structurile de conducere ale facultăților și universității" ;
+                          ase:accesInformatiiTaxe "privind numărul, tipul și cuantumul fiecărei taxe practicate de către ASE București, precum și să cunoască mecanismele de stabilire a acestora" ;
+                          ase:accesPaginaPersonala "planul de învățământ și fișele de disciplină înainte de începerea fiecărui an universitar" ;
+                          ase:alegereLiberaPrograme "în conformitate cu normele legale în vigoare și cu planurile de învățământ" ;
+                          ase:alegereReprezentare "în structurile consultative, deliberative și de conducere" ;
+                          ase:beneficiereAsistentaMedicala "și psihologică gratuită în cabinete medicale și psihologice universitare ori în policlinici și unități specializate, conform legii" ;
+                          ase:beneficiereCazare "cu excepția cazului în care studiază în localitatea de domiciliu, în condițiile legii și în conformitate cu prevederile din Regulamentul și Metodologia de cazare aprobate de Senatul universitar" ;
+                          ase:beneficiereDrepturiLibertati "prevăzute în Carta ASE și în alte reglementări interne" ;
+                          ase:beneficiereIndrumator "de an și serie, din rândul cadrelor didactice din facultatea în cadrul căreia își desfășoară cursurile" ;
+                          ase:beneficiereMobilitate "în conformitate cu regulile creditelor transferabile" ;
+                          ase:beneficierePrevederi "Legii Educației Naționale nr. 1/2011, Cartei ASE, Regulamentelor universității" ;
+                          ase:beneficiereProtectieUniversitar "din partea autorităților responsabile cu ordinea publică; protecția este solicitată de către orice student membru al comunității universitare" ;
+                          ase:beneficiereServicii "de informare și consiliere academică, profesională și socială" ;
+                          ase:beneficiereTarifeReduse "de 75% pentru accesul la muzee, concerte, spectacole de teatru, operă, film, la alte manifestări culturale și sportive organizate de instituții publice, în limita bugetelor aprobate, conform legii" ;
+                          ase:beneficiereTratament "pentru refacerea sănătății în stațiunile balneoclimaterice sau de odihnă" ;
+                          ase:contestareNote "conform Regulamentelor privind activitatea didactică din ASE București" ;
+                          ase:cunoasterePunctajLucrare "maximum două zile de la momentul susținerii" ;
+                          ase:desfasurareActiuni "extracurriculare pentru dezvoltare profesională și/sau moral-civică" ;
+                          ase:evaluareCadreDidactice "rezultatele evaluărilor vor fi publicate în rețeaua intranet" ;
+                          ase:evaluareObiectiva "o evaluare obiectivă și nediscriminatorie a competențelor dobândite" ;
+                          ase:examinareAlternativa "printr-o metodă alternativă atunci când suferă de o dizabilitate temporară sau permanentă" ;
+                          ase:finantareBuget "conform prevederilor legale" ;
+                          ase:finantareTaxeSauBurse "agenți economici ori cu alte persoane fizice sau juridice" ;
+                          ase:ghidStudent "la începutul primului an de studiu de un „Ghid al studentului\" elaborat de către USASE, cu sprijinul ASE București" ;
+                          ase:infiintareAteliere "ateliere, cluburi, cercuri, cenacluri, formații artistice și sportive" ;
+                          ase:interrupereRezumareStudii "conform legislației în vigoare și regulamentelor pentru activitatea didactică din ASE București" ;
+                          ase:limitareOrar "zilnic care să nu depășească 8 ore de la debutul la finalul acestuia" ;
+                          ase:participareActivitati "științifice studențești, concursuri profesionale, activități cultural-sportive" ;
+                          ase:participareConcursuri "organizate de ASE București și de ministerul de resort" ;
+                          ase:participareProcesElaborareRegulamente "regulamentelor și metodologiilor aferente tuturor aspectelor vieții universitare" ;
+                          ase:participareRepartizarePractica "în planul de învățământ (curriculum)" ;
+                          ase:practicaSpecialitate "în conformitate cu obiectivele programului de studii universitare" ;
+                          ase:primireAdeverinteGratuite "și situații școlare eliberate de ASE București, precum și alte acte care atestă statutul de student, conform prevederilor legale" ;
+                          ase:primireBurse "și alte forme de ajutor material în conformitate cu actele normative" ;
+                          ase:proprietateIntelectuala "asupra diverselor lucrări/materiale publicate" ;
+                          ase:protectieDatePersonale "conform Regulamentului nr. 679/27.04.2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE" ;
+                          ase:recunoasterePracticaIndividuala "după evaluarea gradului de îndeplinire a obiectivelor de practică" ;
+                          ase:restituireExemplarLucrare "la cerere, un exemplar, înregistrat de universitate" ;
+                          ase:sesizareAbuzuri "și nereguli, în special cele cu privire la procesul de învățământ și activitățile conexe acestuia, dar și cele cu privire la situații care ar putea influența buna desfășurare a activităților de studiu individual și general, precum și să beneficieze de protecția identității sale" ;
+                          ase:studiuLimbaInternationala "într-o limbă de circulație internațională, în limita locurilor acreditate" ;
+                          ase:termeneInscriere "de cel puțin 5 zile lucrătoare de la afișarea anunțului" ;
+                          ase:utilizareFacilitati "gratuit sau contra unui tarif aprobat de Senatul universitar" .
+
+
+###  http://www.ase.ro#DrepturileStudentilorCentrePlasament
+ase:DrepturileStudentilorCentrePlasament rdf:type owl:NamedIndividual ,
+                                                  ase:DrepturiStudent ;
+                                         ase:studiiGratuite "pentru absolvenții cu diplomă de bacalaureat proveniți din centrele de plasament, conform legii și regulamentelor și metodologiilor aprobate de Senatul universitar" .
+
+
+###  http://www.ase.ro#DrepturileStudentilorCuDizabilitati
+ase:DrepturileStudentilorCuDizabilitati rdf:type owl:NamedIndividual ,
+                                                 ase:DrepturiStudent ;
+                                        ase:accesAdaptat "în toate spațiile universității" ;
+                                        ase:conditiiNormale "pentru desfășurarea normală a activităților academice, sociale și culturale" .
+
+
+###  http://www.ase.ro#DrepturileStudentilorDoctorat
+ase:DrepturileStudentilorDoctorat rdf:type owl:NamedIndividual ,
+                                           ase:DrepturiStudent ;
+                                  ase:beneficiereLogistica "de logistica, centrele de documentare, bibliotecile și echipamentele școlilor doctorale" ;
+                                  ase:colaborareEchipe "cu echipe de cercetători din cadrul școlilor doctorale sau din unități de cercetare-dezvoltare" ;
+                                  ase:informareCurriculum "cu privire la curriculumul studiilor universitare de doctorat" ;
+                                  ase:inscriereCursuriAlteScoli "la cursurile și seminarele organizate de alte școli doctorale" ;
+                                  ase:mobilitati "naționale sau internaționale" ;
+                                  ase:participareComunicari "la sesiunile de comunicări științifice organizate de școlile doctorale" ;
+                                  ase:participareSeminare "la seminarele sau reuniunile de lucru ale personalului de cercetare-dezvoltare din școlile doctorale" ;
+                                  ase:reprezentareForuri "în forurile decizionale ale școlilor doctorale și în Consiliul pentru studii universitare de doctorat" ;
+                                  ase:sprijinConferinte "pentru a participa la conferințe sau congrese științifice, ateliere de lucru, școli de vară sau iarnă" ;
+                                  ase:sprijinCoordonareDoctorat "de conducătorul de doctorat și comisia de îndrumare" .
+
+
+###  http://www.ase.ro#DrepturileStudentilorEtniciRomani
+ase:DrepturileStudentilorEtniciRomani rdf:type owl:NamedIndividual ,
+                                               ase:DrepturiStudent ;
+                                      ase:gratuitateManifestari "la toate manifestările care se desfășoară pe teritoriul României, conform legii" .
+
+
+###  http://www.ase.ro#DrepturileStudentilorMarginalizati
+ase:DrepturileStudentilorMarginalizati rdf:type owl:NamedIndividual ,
+                                                ase:DrepturiStudent ;
+                                       ase:locuriFinantate "de la buget, pentru candidați din medii cu risc socioeconomic ridicat sau marginalizate" ;
+                                       ase:serviciiUrmărire "gratuite de urmărire a traseelor educaționale pentru integrarea lor academică, sociale și culturală în comunitate" .
+
+
+###  http://www.ase.ro#FacultateUnitateFunctionala
+ase:FacultateUnitateFunctionala rdf:type owl:NamedIndividual ,
+                                         ase:Functionalitate ;
+                                ase:evidențăStudenți "competența secretariatului, care funcționează în cadrul fiecărei facultăți" ;
+                                ase:facultate "unitatea funcțională care elaborează și gestionează programele de studii din unul sau mai multe domenii" ;
+                                ase:organismDecizional "Consiliul facultății" ;
+                                ase:reprezentareFacultate "Decan, răspunde de conducerea acesteia" ;
+                                ase:structuraFacultate [ ase:departamente "true"^^xsd:boolean ;
+                                                         ase:extensiiUniversitare "true"^^xsd:boolean ;
+                                                         ase:responsabilitate "organizarea programelor de studii pe tipuri și cicluri de studii universitare" ;
+                                                         ase:școliDoctorale "true"^^xsd:boolean ;
+                                                         ase:școliPostuniversitare "true"^^xsd:boolean
+                                                       ] ;
+                                ase:înființareFuncționareȘiDesființare "în condițiile legii, la propunerea și cu aprobarea Senatului universitar" .
+
+
+###  http://www.ase.ro#FinantareaSiVenituriASE
+ase:FinantareaSiVenituriASE rdf:type owl:NamedIndividual ,
+                                     ase:Finantare ;
+                            ase:contracteMinisterulResort "true"^^xsd:boolean ;
+                            ase:finantareAlteMinistereImprumuturiSurseExterne "true"^^xsd:boolean ;
+                            ase:finantareBugetStat "true"^^xsd:boolean ;
+                            ase:finantareCercetareStiintifica "true"^^xsd:boolean ;
+                            ase:finantareDobanziDonatiiLegateSponsorizari "true"^^xsd:boolean ;
+                            ase:finantareTaxeScolarizarePrestatiiUniversitare "true"^^xsd:boolean ;
+                            ase:fondDezvoltareInstitutionala "true"^^xsd:boolean ;
+                            ase:fonduriRamaseSfarsitAn "true"^^xsd:boolean ;
+                            ase:venituriProprii "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#Incompatibilitate
+ase:Incompatibilitate rdf:type owl:NamedIndividual ,
+                               ase:Reprezentare .
+
+
+###  http://www.ase.ro#IncompatibilityReporting
+ase:IncompatibilityReporting rdf:type owl:NamedIndividual ,
+                                      ase:Incompatibilitate ;
+                             ase:conflictInterese [ ase:detinereFunctieConducereContracteComerciale "true"^^xsd:boolean ;
+                                                    ase:influentaDeciziiInteresePatrimoniale "true"^^xsd:boolean ;
+                                                    ase:participareComisiiAcelasiOrgan "true"^^xsd:boolean ;
+                                                    ase:relatiiAfiniRude "soț/soția, afini sau rude până la gradul al III-lea inclusiv" ;
+                                                    ase:relatiiCaracterPatrimonial "true"^^xsd:boolean
+                                                  ] ;
+                             ase:incetareRapoarteIerarhice "true"^^xsd:boolean ;
+                             ase:informare "în scris, de îndată" ;
+                             ase:neindeplinireObligatie "constată de către șeful ierarhic superior" ;
+                             ase:rezolvareIncompatibilitate "în termen de 30 de zile de la data apariției" .
+
+
+###  http://www.ase.ro#LibertateaAcademică
+ase:LibertateaAcademică rdf:type owl:NamedIndividual ,
+                                 ase:Libertate ;
+                        ase:cumulareFuncții "Funcțiile de conducere sau de demnitate publică se pot cumula cu funcțiile didactice sau de cercetare în condițiile legii" ;
+                        ase:manifestare [ ase:accesSpațiuUniversitar "accesul membrilor comunității universitare în spațiul universitar, în timpul programului de lucru stabilit și în conformitate cu regulamentele universitare" ;
+                                          ase:dreptAsociere "dreptul membrilor comunității universitare de a se asocia pentru a-și proteja interesele socioprofesionale" ;
+                                          ase:dreptCercetareTematică "dreptul de a cerceta orice temă pentru care se manifestă interesul profesional și științific, cu respectarea normelor de etică și ale codurilor deontologice specifice" ;
+                                          ase:dreptConsultanță "dreptul de a acorda asistență de specialitate sub formă de consultanță, de a participa la managementul proiectelor și la incubatoare de afaceri" ;
+                                          ase:dreptExprimareOpinii "dreptul membrilor comunității universitare de a-și exprima liber opiniile cu privire la temele profesionale și științifice" ;
+                                          ase:dreptProducereDobândireDezvoltare "dreptul membrilor comunității universitare de a produce, dobândi, dezvolta și transmite liber cunoștințe prin cercetare, dezbatere, predare, lectură, publicare. Rezultatele profesionale și științifice obținute în țară și în străinătate vor fi recunoscute în ASE" ;
+                                          ase:dreptSelectareMembri "dreptul de a-și selecta membrii comunității universitare, în condițiile legii și conform reglementărilor interne ASE"
+                                        ] ;
+                        ase:permiseActivități "În universitate sunt permise exclusiv activitățile prevăzute de legislaţia în vigoare și reglementările interne" .
+
+
+###  http://www.ase.ro#ManagementulCalitatiiUniversitare
+ase:ManagementulCalitatiiUniversitare rdf:type owl:NamedIndividual ,
+                                               ase:ManagementCalitate ;
+                                      ase:abordareProcesuala "true"^^xsd:boolean ;
+                                      ase:abordareSistemica "true"^^xsd:boolean ;
+                                      ase:argumentareaDeciziilorConducerii "true"^^xsd:boolean ;
+                                      ase:centrareaPeStudentSiPartiInteresate "true"^^xsd:boolean ;
+                                      ase:cultivareaCreativitatiiInovarii "true"^^xsd:boolean ;
+                                      ase:dezvoltareCapacitateRezilienta "true"^^xsd:boolean ;
+                                      ase:evaluareActivitateDidacticaStiintifica "cel puțin o dată la cinci ani, pe baza unei metodologii proprii aprobate și aplicate de către Senatul universitar" ;
+                                      ase:evaluareInternCertificareExtern "true"^^xsd:boolean ;
+                                      ase:evaluareaActivitatiDidacticeDeCatreStudenti "obligatorie, rezultatele acestui proces fiind informații publice" ;
+                                      ase:imbunatatireContinuaCalitate "true"^^xsd:boolean ;
+                                      ase:implicareaPersonalului "true"^^xsd:boolean ;
+                                      ase:managementPerformant "true"^^xsd:boolean ;
+                                      ase:proceduriEvaluareCalitate "cuprinse în Codul de asigurare a calității, adoptat de către Senat" ;
+                                      ase:rezultateActivitatiEducatieStiintificePublice "true"^^xsd:boolean ;
+                                      ase:studentiDrepturiDeplineAsigurareCalitate "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#MembriiComunitatiiUniversitare
+ase:MembriiComunitatiiUniversitare rdf:type owl:NamedIndividual ,
+                                            ase:Comunitate ;
+                                   ase:studentiDrepturiDepline "fiind parteneri în managementul ASE, inclusiv în procesul de asigurare a calității activității" .
+
+
+###  http://www.ase.ro#Misiune
+ase:Misiune rdf:type owl:NamedIndividual ,
+                     ase:MisiuneaASE ;
+            ase:misiuneDeCercetare "contribuția la crearea, îmbunătățirea și aplicarea cunoașterii..." ;
+            ase:misiuneEducationala "pregătirea studenților pentru a gândi critic și constructiv..." ;
+            ase:misiunePentruComunitate "conlucrarea cu comunitatea locală, națională și regională..." .
+
+
+###  http://www.ase.ro#ObligatiileStudentilor
+ase:ObligatiileStudentilor rdf:type owl:NamedIndividual ,
+                                    ase:ObligatiiStudent ;
+                           ase:achitareObligatii "financiare față de ASE București, la timp" ;
+                           ase:citireFisaDisciplinei "și îndeplinirea obligațiilor de studiu individual" ;
+                           ase:comportamentCivic "și respect față de colegi, cadrele didactice și personal" ;
+                           ase:consultareSite "universității și facultății, pagina personală și aviziere" ;
+                           ase:nuFumeaza "în spațiile ASE București, suportând sancțiuni" ;
+                           ase:participareFaraSubstante "sub influența băuturilor alcoolice sau substanțe interzise" ;
+                           ase:pastreazaUtilizeaza "baza materială cu grijă, suportând plata prejudiciilor aduse" ;
+                           ase:pregatireParticipare "la orele de curs, seminar și laborator, și verificările periodice" ;
+                           ase:promovareEvaluari "în cadrul sesiunilor" ;
+                           ase:respectareCodEtica "și deontologie universitară" ;
+                           ase:respectareCuratenie "liniștea și ordinea publică în spațiul universitar" ;
+                           ase:respectareObligatii "prevăzute în Cartă și alte reglementări interne" ;
+                           ase:respectareReguli "de prevenire a incendiilor și de apărare civilă" ;
+                           ase:respectareStandarde "de calitate stabilite de ASE București" ;
+                           ase:sustinereProiecte "și probele practice" ;
+                           ase:utilizareFacilitati "în mod corespunzător, conform destinației stabilite" ;
+                           ase:verificareSituatieScolara "la sfârșitul fiecărui semestru și an universitar" .
+
+
+###  http://www.ase.ro#ObligatiileStudentilorDoctorat
+ase:ObligatiileStudentilorDoctorat rdf:type owl:NamedIndividual ,
+                                            ase:ObligatiiStudent ;
+                                   ase:fieLegaturaPermanenta "cu conducătorul de doctorat" ;
+                                   ase:legaturaPermanenta "cu conducătorul de doctorat" ;
+                                   ase:prezentareRapoarte "de activitate conducătorului de doctorat și comisiei de îndrumare" ;
+                                   ase:prezinteRapoarte "conducătorului de doctorat și comisiei de îndrumare" ;
+                                   ase:respectareDisciplina "instituțională" ;
+                                   ase:respectareProgramPregatire "individuală stabilit cu conducătorul de doctorat" ;
+                                   ase:respecteDisciplina "instituțională" ;
+                                   ase:respecteProgramPregatire "programul de pregătire individuală stabilit împreună cu conducătorul de doctorat" .
+
+
+###  http://www.ase.ro#PatrimoniuASE
+ase:PatrimoniuASE rdf:type owl:NamedIndividual ,
+                           ase:Patrimoniu ;
+                  ase:aprobareCuantumStructuraAport "Senatul, la propunerea Consiliului de Administrație" ;
+                  ase:inchiriereActivePatrimoniale "true"^^xsd:boolean ;
+                  ase:participareFundatiiAsociatiiSocietatiComerciale "Consiliul de Administrație, cu aprobarea Senatului universitar" ;
+                  ase:patrimoniuPropriu "true"^^xsd:boolean ;
+                  ase:titularaDreptAdministrareBunuriStat "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#PrincipiiCodEtica
+ase:PrincipiiCodEtica rdf:type owl:NamedIndividual ,
+                               ase:Reprezentare ;
+                      ase:competitie "onesta" ;
+                      ase:comportament "echilibrat" ;
+                      ase:conduita "morală adecvată în raport cu studenții" ;
+                      ase:cooperare "comunitară și atitudine neconflictuală" ;
+                      ase:integritate "morală și profesională" ;
+                      ase:loialitate "față de ASE" ;
+                      ase:nediscriminare "și echitatea, egalitatea de șanse, accesul liber și egal la resurse materiale și servicii" ;
+                      ase:respect "față de probitatea științifică" ;
+                      ase:responsabilitate "morală și angajament față de ASE" .
+
+
+###  http://www.ase.ro#PrincipiiEtice
+ase:PrincipiiEtice rdf:type owl:NamedIndividual ,
+                            ase:ConducereASE ;
+                   ase:compozitie "propuse de Consiliul de Administrație, avizate de Senatul universitar și aprobate de Rector" ;
+                   ase:constituire "Comisia de etică și deontologie universitară" ;
+                   ase:excludere "persoanele care ocupă una din funcțiile de rector, prorector, director CSUD, decan, prodecan, director general administrativ, director de departament, director de școală doctorală, alte funcțiile prevăzute de lege" ;
+                   ase:principiiConduita [ ase:conduitaMoralaAdecvata "true"^^xsd:boolean ;
+                                           ase:evitareHartuire "true"^^xsd:boolean ;
+                                           ase:masuriAnticipativeSuprasolicitare "true"^^xsd:boolean ;
+                                           ase:solutionareNemultumiriCaleIerarhica "true"^^xsd:boolean
+                                         ] .
+
+
+###  http://www.ase.ro#Prodecan
+ase:Prodecan rdf:type owl:NamedIndividual ,
+                      ase:FunctieDeConducere ;
+             ase:numitDe "Decan, după consultarea Rectorului" ;
+             ase:poateFiiDemis [ ase:de "Rector, la propunerea Decanului" ;
+                                 ase:situatii [ ase:incalcareCodEticaDeontologie "true"^^xsd:boolean ;
+                                                ase:incalcareLegislatieNormeEtica "true"^^xsd:boolean ;
+                                                ase:incompatibilitateLegal "true"^^xsd:boolean ;
+                                                ase:neindeplinireSarcini "true"^^xsd:boolean ;
+                                                ase:prejudiciuInteresePrestigiuASE "true"^^xsd:boolean
+                                              ]
+                               ] ;
+             ase:sarciniStabiliteDe "Decan" .
+
+
+###  http://www.ase.ro#ProgrameDeStudii
+ase:ProgrameDeStudii rdf:type owl:NamedIndividual ,
+                              ase:ProgrameDeStudiiASE ;
+                     ase:admitere [ ase:condițiiCetățeni "Cetățenii celorlalte state membre ale Uniunii Europene, ai statelor aparținând Spațiului Economic European și ai Confederației Elvețiene candidează în aceleași condiții ca și cetățenii români." ;
+                                    ase:conformitateLegislație "true"^^xsd:boolean ;
+                                    ase:metodologiiProprii "true"^^xsd:boolean
+                                  ] ;
+                     ase:calificări [ ase:atestare "diplome, certificate, alte acte de studii" ;
+                                      ase:documenteOficiale "true"^^xsd:boolean ;
+                                      ase:echivalență "indiferent de forma de învățământ absolvită" ;
+                                      ase:organizareComună "actele de studii eliberate în concordanță cu reglementările naționale și prevederile acordurilor interinstituționale"
+                                    ] ;
+                     ase:crediteTransferabile [ ase:alocareConform "metodologia Sistemului European de Credite Transferabile (ECTS/SECT)" ;
+                                                ase:elementReferință "recunoaștere studii sau perioade de studii universitare" ;
+                                                ase:numărSpecific "true"^^xsd:boolean ;
+                                                ase:precizarePlanÎnvățământ "true"^^xsd:boolean ;
+                                                ase:regulamente "aprobate de către Senatul universitar" ;
+                                                ase:volumMuncăIntelectuală "dirijată și/sau independentă" ;
+                                                ase:școliVarăȘiVoluntariat "credite de studii transferabile, aprobate de Senatul universitar"
+                                              ] ;
+                     ase:documenteCurriculare [ ase:componente "planul de învățământ, fișele disciplinelor, alte documente curriculare" ;
+                                                ase:fișaDisciplinei [ ase:conținut "efort aferent numărului de credite transferabile, competențe, conținuturi curriculare, modul de evaluare" ;
+                                                                      ase:elaborare "nivelul departamentului" ;
+                                                                      ase:stabilitate "nu poate fi modificată pe parcursul anului universitar"
+                                                                    ] ;
+                                                ase:planÎnvățământ [ ase:aprobare "Senatul universitar" ;
+                                                                     ase:avizare "Consiliul facultății și de Consiliul de Administrație" ;
+                                                                     ase:elaborare "nivelul facultăților"
+                                                                   ] ;
+                                                ase:structură "metodologii specifice, aprobate de Senat"
+                                              ] ;
+                     ase:formeleOrganizare [ ase:cuFrecvență "studiile universitare de licență, masterat și doctorat" ;
+                                             ase:cuFrecvențăRedusă "studiile universitare de licență, masterat și doctorat" ;
+                                             ase:laDistanță "studiile universitare de licență"
+                                           ] ;
+                     ase:grupuriUnitățiCurriculare "true"^^xsd:boolean ;
+                     ase:organizare "să conducă la obținerea calificării universitare certificate prin diploma și suplimentul la diplomă aferent" ;
+                     ase:structurăAnUniversitar [ ase:aprobare "Senatul universitar" ;
+                                                  ase:conformitate "prevederile legale în vigoare"
+                                                ] ;
+                     ase:tipuriProgram [ ase:studiileFormareProfesionalăAdult "inițiere, calificare, recalificare, perfecţionare, specializare" ;
+                                         ase:studiileFormarePsihopedagogică [ ase:nivelulI "pe parcursul ciclului universitar de licență" ;
+                                                                              ase:nivelulII "efectuat după obținerea diplomei de licență"
+                                                                            ] ;
+                                         ase:studiilePostuniversitare "true"^^xsd:boolean ;
+                                         ase:studiileUniversitare "licență, masterat, doctorat"
+                                       ] .
+
+
+###  http://www.ase.ro#Prorector
+ase:Prorector rdf:type owl:NamedIndividual ,
+                       ase:FunctieDeConducere ;
+              ase:durataMandat "4 ani" ;
+              ase:poateFiiDemis [ ase:de "Rector, în urma consultării Senatului universitar" ;
+                                  ase:motiv [ ase:incalcareLegislatieNormeEtica "true"^^xsd:boolean ;
+                                              ase:incompatibilitateLegala "true"^^xsd:boolean ;
+                                              ase:nendeplinireSarcini "true"^^xsd:boolean ;
+                                              ase:prejudiciuIntereseASE "true"^^xsd:boolean
+                                            ]
+                                ] ;
+              ase:raspundeRector "true"^^xsd:boolean ;
+              ase:sarcini [ ase:activitatiSocialeCulturaleSportive "true"^^xsd:boolean ;
+                            ase:alteAtributii "true"^^xsd:boolean ;
+                            ase:asigurareCalitate "true"^^xsd:boolean ;
+                            ase:atragereFonduriEuropene "true"^^xsd:boolean ;
+                            ase:cercetareDezvoltareInovare "true"^^xsd:boolean ;
+                            ase:conservareaPatrimoniuluiASE "true"^^xsd:boolean ;
+                            ase:finantareaInvestitiiActivitatiBaza "true"^^xsd:boolean ;
+                            ase:managementFinanciar "true"^^xsd:boolean ;
+                            ase:managementLogisticaInfrastructura "true"^^xsd:boolean ;
+                            ase:managementResurseUmane "true"^^xsd:boolean ;
+                            ase:organizareFonduriEuropene "true"^^xsd:boolean ;
+                            ase:organizareProgramStudii "true"^^xsd:boolean ;
+                            ase:parteneriatePlanNational "true"^^xsd:boolean ;
+                            ase:relatiiInternationale "true"^^xsd:boolean ;
+                            ase:relatiiPublicePromovareASE "true"^^xsd:boolean ;
+                            ase:viataStudenteasca "true"^^xsd:boolean
+                          ] .
+
+
+###  http://www.ase.ro#Rector
+ase:Rector rdf:type owl:NamedIndividual ,
+                    ase:FunctieDeConducere ;
+           ase:atributii [ ase:alocareFonduriStimulare "true"^^xsd:boolean ;
+                           ase:anulareCertificatDiplomaFrauduloasa "true"^^xsd:boolean ;
+                           ase:aplicarePrevederiRegulamentIntern "true"^^xsd:boolean ;
+                           ase:aplicareRaspunderePublica [ ase:declarareCapacitateScolarizare "true"^^xsd:boolean ;
+                                                           ase:prezentareRaportStareaASE "true"^^xsd:boolean ;
+                                                           ase:publicareDecizii "true"^^xsd:boolean
+                                                         ] ;
+                           ase:aprobareAtributiiPersonalDidacticAuxiliar "true"^^xsd:boolean ;
+                           ase:aprobareComponențaStructuraComisieiEtica "true"^^xsd:boolean ;
+                           ase:asigurareBunaDesfasurareConcursuri "true"^^xsd:boolean ;
+                           ase:atributiiAltele "îndeplinește alte atribuții stabilite de Senatul universitar, în conformitate cu Contractul de management și legislația în vigoare" ;
+                           ase:conducereConsiliulAdministratie "true"^^xsd:boolean ;
+                           ase:conducereOperativaASE "true"^^xsd:boolean ;
+                           ase:convocareSenatExtraordinar "true"^^xsd:boolean ;
+                           ase:deciziiAngajareSancționare "true"^^xsd:boolean ;
+                           ase:deciziiRegimMatricol "true"^^xsd:boolean ;
+                           ase:gestionarePatrimoniuASE "true"^^xsd:boolean ;
+                           ase:organizareConcursDecani "true"^^xsd:boolean ;
+                           ase:organizareConcursPosturiDidacticeCercetare "true"^^xsd:boolean ;
+                           ase:prezentareRapoarteSenat "true"^^xsd:boolean ;
+                           ase:prezidareComisieConcursDirectorGeneral "true"^^xsd:boolean ;
+                           ase:propunereReorganizareDesfiintare "true"^^xsd:boolean ;
+                           ase:propunereRepetareExamenMedical "true"^^xsd:boolean ;
+                           ase:propunereStructuraReglementariASE "true"^^xsd:boolean ;
+                           ase:semnareActeOficiale "true"^^xsd:boolean ;
+                           ase:supunereProiectBuget "true"^^xsd:boolean
+                         ] ;
+           ase:contractInstitutie "Ministrul Educației Naționale" ;
+           ase:contractManagement "true"^^xsd:boolean ;
+           ase:desemnare "votul universal, direct și secret al tuturor cadrelor didactice și de cercetare titulare, precum și al reprezentanților studenților în Senatul universitar și în consiliile facultăților" ;
+           ase:mandat "4 ani" ;
+           ase:maxMandate 2 ;
+           ase:ordonatorDeCredite "true"^^xsd:boolean ;
+           ase:poateFiiDemis [ ase:de "Senatul universitar" ;
+                               ase:situatii [ ase:incalcareLegislatieNormeEtica "true"^^xsd:boolean ;
+                                              ase:incompatibilitateLegala "true"^^xsd:boolean ;
+                                              ase:neindeplinireIndicatori "true"^^xsd:boolean ;
+                                              ase:prejudiciuInteresePrestigiuASE "true"^^xsd:boolean
+                                            ]
+                             ] ;
+           ase:poateFiiRevocat [ ase:conditii "în condițiile legii, după consultarea Senatului universitar" ;
+                                 ase:de "Ministrul Educației Naționale"
+                               ] ;
+           ase:reprezentantLegalASE "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#RelatieUSASE
+ase:RelatieUSASE rdf:type owl:NamedIndividual ,
+                          ase:Reprezentare ;
+                 ase:membruFondator "al Uniunii Studenților Academiei de Studii Economice din București (USASE)" ;
+                 ase:partenerOrganizare "și desfășurarea alegerilor pentru structurile de conducere academică, desemnând reprezentanți în comisiile constituite în acest sens" ;
+                 ase:reprezentareInterese "studenților ASE în raport cu universitatea, facultățile, departamentele și structurile tehnico-administrative" ;
+                 ase:reprezentareOrganisme "la nivelul organelor colegiale de conducere, participând activ la luarea deciziilor" ;
+                 ase:sustinereActivitate "USASE" .
+
+
+###  http://www.ase.ro#RelatiiParteneriatASE
+ase:RelatiiParteneriatASE rdf:type owl:NamedIndividual ,
+                                   ase:RelatiiParteneriat ;
+                          ase:contracteOperatiuniFinanciare "instituții publice și operatorii economici, adoptate printr-o procedură operațională" ;
+                          ase:cooperareInternationalaProcedura "stabilesc printr-o procedură operațională" ;
+                          ase:participareAsociatiiConsorții "alte instituții de învățământ superior sau de cercetare științifică, la propunerea Consiliului de Administrație și cu aprobarea Senatului universitar" ;
+                          ase:promovareValoriSpațiuEuropeanInvatamantSuperiorCercetareStiintifica "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#ReprezentareStudentilor
+ase:ReprezentareStudentilor rdf:type owl:NamedIndividual ,
+                                     ase:Reprezentare ;
+                            ase:aleagaReprezentantii "în structurile consultative, deliberative și de conducere din ASE București, conform legii" ;
+                            ase:desemnareMembri "în baza autonomiei universitare și se stabilește în conformitate cu Metodologia amintite" ;
+                            ase:nuConditiaStatut "de performanțele academice, prezența la cursuri, seminare și laboratoare" ;
+                            ase:nuImplicareCadre "în procedurile de alegere a studenților reprezentanți" ;
+                            ase:participareProcesDecizional "și popularizării hotărârilor structurilor de conducere" ;
+                            ase:participareProcesDesemnare "procesul de stabilire a modalității de desemnare a rectorului și în cel de desemnare a acestuia" ;
+                            ase:reprezentantConsiliuAdministratie "ales prin vot secret de către reprezentanții studenților în Senatul universitar" .
+
+
+###  http://www.ase.ro#ResurseASE
+ase:ResurseASE rdf:type owl:NamedIndividual ,
+                        ase:Resurse ;
+               ase:alteResurse "true"^^xsd:boolean ;
+               ase:gestiuneProtejareResurse "respectarea legii, în baza planului strategic și operațional de dezvoltare instituțională" ;
+               ase:masuriAdministrareResurseMaterialeFinanciare "Consiliul de Administrație, aplicând regulile gestionării prudențiale" ;
+               ase:recuperarePrejudiciiPatrimoniu "de la persoanele responsabile, în condițiile legii" ;
+               ase:resurseFinanciare "true"^^xsd:boolean ;
+               ase:resurseMateriale "true"^^xsd:boolean ;
+               ase:resurseUmane "true"^^xsd:boolean ;
+               ase:stocCunostinte "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#SancțiuniPersonalDidactic
+ase:SancțiuniPersonalDidactic rdf:type owl:NamedIndividual ,
+                                       ase:EticaUniversitara ;
+                              ase:aplicabil "personalului didactic și de cercetare și personalului didactic și de cercetare auxiliar" ;
+                              ase:avertismentScris "true"^^xsd:boolean ;
+                              ase:desfacereaContractMunca "true"^^xsd:boolean ;
+                              ase:destituireaFuncțieConducere "true"^^xsd:boolean ;
+                              ase:diminuareaSalariului "true"^^xsd:boolean ;
+                              ase:retragereaCorectareaLucrari "true"^^xsd:boolean ;
+                              ase:suspendareaInscriereConcurs "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#SancțiuniStudenti
+ase:SancțiuniStudenti rdf:type owl:NamedIndividual ,
+                               ase:EticaUniversitara ;
+                      ase:alteSancțiuni "prevăzute de actele normative în vigoare" ;
+                      ase:aplicabil "studenților și studenților-doctoranzi" ;
+                      ase:avertismentScris "true"^^xsd:boolean ;
+                      ase:exmatricularea "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#SenatInExercitiu
+ase:SenatInExercitiu rdf:type owl:NamedIndividual ,
+                              ase:StructuraConducere ;
+                     ase:dizolvare "în ziua întrunirii noului Senat" ;
+                     ase:elaborareMetodologieAlegeri "în termen de maximum 60 de zile de la data organizării referendumului de desemnare a Rectorului" ;
+                     ase:finalizareAlegeri "true"^^xsd:boolean ;
+                     ase:organizareReferendum "cu minimum șase luni înainte de expirarea mandatului său" .
+
+
+###  http://www.ase.ro#SenatulUniversitar
+ase:SenatulUniversitar rdf:type owl:NamedIndividual ,
+                                ase:StructuraConducere ;
+                       ase:adoptareRegulament "în termen de maximum 30 de zile de la alegerea Președintelui său" ;
+                       ase:atributieAprobareActivitatiDidacticeCercetare "true"^^xsd:boolean ;
+                       ase:atributieAprobareAnSabatic "true"^^xsd:boolean ;
+                       ase:atributieAprobareBuget "true"^^xsd:boolean ;
+                       ase:atributieAprobareCoduriDrepturiStudenti "true"^^xsd:boolean ;
+                       ase:atributieAprobareComisiiAnalizaAbateriDisciplinare "true"^^xsd:boolean ;
+                       ase:atributieAprobareComisiiConcursExamen "true"^^xsd:boolean ;
+                       ase:atributieAprobareDistinctiiOnorifice "true"^^xsd:boolean ;
+                       ase:atributieAprobareEchivalareTitluriDidactice "true"^^xsd:boolean ;
+                       ase:atributieAprobareFormatiiStudiu "true"^^xsd:boolean ;
+                       ase:atributieAprobareInfiintareSocietatiComerciale "true"^^xsd:boolean ;
+                       ase:atributieAprobareInvitareCadreDidactice "true"^^xsd:boolean ;
+                       ase:atributieAprobareListaPosturiVacante "true"^^xsd:boolean ;
+                       ase:atributieAprobarePerioadeConcediuOdihna "true"^^xsd:boolean ;
+                       ase:atributieAprobarePlanuriInvatamant "true"^^xsd:boolean ;
+                       ase:atributieAprobarePlanuriStrategice "true"^^xsd:boolean ;
+                       ase:atributieAprobarePrelungireDurataProgramDoctorat "true"^^xsd:boolean ;
+                       ase:atributieAprobareReducereNormaDidactica "true"^^xsd:boolean ;
+                       ase:atributieAprobareRegulamenteMetodologii "true"^^xsd:boolean ;
+                       ase:atributieAprobareRezultateConcursuri "true"^^xsd:boolean ;
+                       ase:atributieAprobareSanctionareDisciplinara "true"^^xsd:boolean ;
+                       ase:atributieAprobareSanctionarePersonal "true"^^xsd:boolean ;
+                       ase:atributieAprobareStateFunctii "true"^^xsd:boolean ;
+                       ase:atributieAprobareStructuraAnUniversitar "true"^^xsd:boolean ;
+                       ase:atributieAprobareStructuraOrganizareASE "true"^^xsd:boolean ;
+                       ase:atributieAprobareStructuriInvatamantCercetare "true"^^xsd:boolean ;
+                       ase:atributieControlActivitateRector "true"^^xsd:boolean ;
+                       ase:atributieDecidereAlteDomeniiActivitateUniversitara "true"^^xsd:boolean ;
+                       ase:atributieDecidereMarireNormaDidactica "true"^^xsd:boolean ;
+                       ase:atributieDesemnareProrectorCredite "true"^^xsd:boolean ;
+                       ase:atributieElaborareCartaUniversitara "true"^^xsd:boolean ;
+                       ase:atributieElaborareCoduriCalitateEtica "true"^^xsd:boolean ;
+                       ase:atributieIncheiereContractManagementRector "true"^^xsd:boolean ;
+                       ase:atributieStabilireCompozitieBirouElectoral "true"^^xsd:boolean ;
+                       ase:atributieStabilireNumarStudentiDoctoranzi "true"^^xsd:boolean ;
+                       ase:atributieStabilirePlafoaneCheltuieli "true"^^xsd:boolean ;
+                       ase:atributieValidareConcursuriPublice "true"^^xsd:boolean ;
+                       ase:comisiiSpecialitate "true"^^xsd:boolean ;
+                       ase:compozitie "75% personal didactic și de cercetare și 25% reprezentanți ai studenților" ;
+                       ase:conditiiReprezentareStudenți "raportarea numărului studenților fiecărei facultăți la numărul total al studenților înmatriculați la ASE" ;
+                       ase:conducere "condus de un președinte, ales prin vot direct și secret" ;
+                       ase:garanteazaLibertatea "libertatea academică și autonomia universitară" ;
+                       ase:mandat 4 ;
+                       ase:metodologieReprezentare "reprezentativităţii pe facultăţi şi departamente" ;
+                       ase:numarMembri 97 ;
+                       ase:sedinte "ordinare, de regulă trimestrial și în sesiuni extraordinare" .
+
+
+###  http://www.ase.ro#StatutulStudentilor
+ase:StatutulStudentilor rdf:type owl:NamedIndividual ,
+                                 ase:StudentStatus ;
+                        ase:admisInmatriculatLaProgramStudii "concomitent, la cel mult două programe de studii, indiferent de instituțiile de învățământ care le oferă" ;
+                        ase:calitateaDeStudent "persoanele înmatriculate la programele de studii universitare de licență, masterat și doctorat" ;
+                        ase:finantareDeLaBuget "în conformitate cu prevederile legale în vigoare" ;
+                        ase:subventieFinanciaraBursa "numai într-o singură instituție de învățământ superior, pentru un singur program de studii" ;
+                        ase:transferStudentSubventie "subvenția urmează studentul" .
+
+
+###  http://www.ase.ro#StructuraServiciiTehnicoAdministrative
+ase:StructuraServiciiTehnicoAdministrative rdf:type owl:NamedIndividual ,
+                                                    ase:Structuri ;
+                                           ase:calitateConducătorDoctorat "se dobândește și se menține conform legii" ;
+                                           ase:coordonație "conducător de doctorat" ;
+                                           ase:managementDeliberativȘiDecizional "Consiliul școlii doctorale, organizat și funcționează în baza legislației în vigoare, fiind asimilat Consiliului departamentului" ;
+                                           ase:managementExecutiv "asigurat de un director (asimilat directorului de departament)" ;
+                                           ase:programeStudiiUniversitareDoctorat "școli doctorale acreditate sau autorizate provizoriu, structurate pe domenii" ;
+                                           ase:regulamentDeOrganizareȘiFuncționare [ ase:aprobatDe "Senatul universitar" ;
+                                                                                     ase:propusDe "Consiliul de Administrație"
+                                                                                   ] ;
+                                           ase:structuraEducatieCercetare [ ase:alteStructuri "faciliteze crearea și transferul de cunoaștere" ;
+                                                                            ase:centruÎnvățământLaDistanțăȘiFrecvențăRedusă "true"^^xsd:boolean ;
+                                                                            ase:departamente "true"^^xsd:boolean ;
+                                                                            ase:facultăți "true"^^xsd:boolean ;
+                                                                            ase:incubatoareDeAfaceri "true"^^xsd:boolean ;
+                                                                            ase:instituteȘiCentreDeCercetare "true"^^xsd:boolean ;
+                                                                            ase:unitățiPrestăriDeServicii "true"^^xsd:boolean ;
+                                                                            ase:școliDoctoraleȘiPostdoctorale "true"^^xsd:boolean ;
+                                                                            ase:școliPostuniversitare "true"^^xsd:boolean
+                                                                          ] ;
+                                           ase:structuraServiciiTehnicoAdministrative [ ase:bazeSportive "true"^^xsd:boolean ;
+                                                                                        ase:bibliotecă "true"^^xsd:boolean ;
+                                                                                        ase:editură "true"^^xsd:boolean ;
+                                                                                        ase:muzee "true"^^xsd:boolean ;
+                                                                                        ase:serviciiTehnicoAdministrative "true"^^xsd:boolean ;
+                                                                                        ase:tipografie "true"^^xsd:boolean ;
+                                                                                        ase:unitățiDeAgrementȘiSociale "true"^^xsd:boolean
+                                                                                      ] .
+
+
+###  http://www.ase.ro#StructurileUniversitareConducere
+ase:StructurileUniversitareConducere rdf:type owl:NamedIndividual ,
+                                              ase:Structuri ;
+                                     ase:includeCSUD "true"^^xsd:boolean ;
+                                     ase:includeConsiliileDepartamentelor "true"^^xsd:boolean ;
+                                     ase:includeConsiliileFacultatilor "true"^^xsd:boolean ;
+                                     ase:includeConsiliileScolilorDoctorale "true"^^xsd:boolean ;
+                                     ase:includeConsiliulAdministratie "true"^^xsd:boolean ;
+                                     ase:includeSenatulUniversitar "true"^^xsd:boolean .
+
+
+###  http://www.ase.ro#Valori
+ase:Valori rdf:type owl:NamedIndividual ,
+                    ase:ValoriFundamentale ;
+           ase:dedicare "pasiune și entuziasm în desfășurarea actului educațional și de cercetare" ;
+           ase:integritate "devotament față de adevăr, onestitate, cinste și onoare" ;
+           ase:loialitate "atașament față de elementele definitorii ale culturii organizaționale a universității" ;
+           ase:profesionalism "orientarea către excelenţă, desfășurarea activităților universitare cu rigurozitate" ;
+           ase:responsabilitate "asumarea răspunderii, asigurarea credibilității, acceptarea consecințelor acțiunilor proprii" ;
+           ase:încredere "abilitatea și îndrăzneala de a crede în noi înșine și în capacitatea de a reuși" .
+
+
+###  http://www.ase.ro#Viziune
+ase:Viziune rdf:type owl:NamedIndividual ,
+                     ase:ValoriFundamentale ;
+            ase:asigurareaCalitatii "true"^^xsd:boolean ;
+            ase:autonomiaUniversitara "true"^^xsd:boolean ;
+            ase:centrareaEducatieiPeStudent "true"^^xsd:boolean ;
+            ase:eficacitateaManagerialăȘiEficiențaFinanciară "true"^^xsd:boolean ;
+            ase:independențaFațăDeIdeologii "true"^^xsd:boolean ;
+            ase:libertateaAcademica "true"^^xsd:boolean ;
+            ase:libertateaDeMobilitate "true"^^xsd:boolean ;
+            ase:parteneriatulCuEntități "true"^^xsd:boolean ;
+            ase:transparențaDecizională "true"^^xsd:boolean .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+ase:FunctieDeConducereVacanta ase:alegeriPartialeSauConcurs "maxim trei luni" ;
+                              ase:metodologie "metodologie în vigoare la data ocupării funcției vacantate" .
+
+
+ase:Incompatibilitate ase:interdictii [ ase:interdictieAcelasiOrganConducere "true"^^xsd:boolean ;
+                                        ase:interdictieConducatorDoctorat "true"^^xsd:boolean ;
+                                        ase:interdictieEvaluareRude "true"^^xsd:boolean ;
+                                        ase:ocupareFunctiiDecan "true"^^xsd:boolean ;
+                                        ase:ocupareFunctiiDirectorDepartament "true"^^xsd:boolean ;
+                                        ase:ocupareFunctiiDirectorGeneral "true"^^xsd:boolean ;
+                                        ase:ocupareFunctiiDirectorScoalaDoctorala "true"^^xsd:boolean ;
+                                        ase:ocupareFunctiiProdecan "true"^^xsd:boolean ;
+                                        ase:ocupareFunctiiProrector "true"^^xsd:boolean ;
+                                        ase:ocupareFunctiiRector "true"^^xsd:boolean
+                                      ] .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi

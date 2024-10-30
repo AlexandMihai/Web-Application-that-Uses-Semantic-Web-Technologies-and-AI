@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Autentificare</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ase.ro/app/themes/ase/public/images/favicon/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/auth_styles.css') }}">
+    <script src="static/js/login.js"></script>
+</head>
+<body>
+    <div class="auth-container">
+        <form id="loginForm" onsubmit="event.preventDefault(); loginUser();">
+            <input type="text" id="loginUsername" name="username" placeholder="Nume de utilizator/Email" required>
+            <input type="password" id="loginPassword" name="password" placeholder="Parolă" required>
+            <input type="submit" value="Autentificare">
+        </form>
+        <p class="forgot-password">
+            <a href="/password_reset">Ai uitat parola?</a>
+        </p>
+        <p class="auth-redirect">
+            Nu ai un cont? <a href="/signup">Înregistrează-te</a>
+        </p>
+    </div>
+</body>
+</html>

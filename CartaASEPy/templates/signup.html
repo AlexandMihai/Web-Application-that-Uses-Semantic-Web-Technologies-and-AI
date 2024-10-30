@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Înregistrare</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ase.ro/app/themes/ase/public/images/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="static/css/auth_styles.css">
+    <script src="static/js/signup.js"></script>
+</head>
+<body>
+    <div class="auth-container">
+        <form id="signupForm" onsubmit="event.preventDefault(); signupUser();">
+            <input type="text" name="username" id="signupUsername" placeholder="Nume de utilizator" required>
+            <input type="email" name="email" id="signupEmail" placeholder="Email" required>
+            <input type="password" name="password" id="signupPassword" placeholder="Parolă" required>
+            <input type="submit" value="Înregistrează-te">
+        </form>
+    </div>
+</body>
+</html>
